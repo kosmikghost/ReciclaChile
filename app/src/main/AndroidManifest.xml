@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciclaChile">
-        <activity android:name=".Acercade_Activity"></activity>
+        <activity android:name=".help_Activity"></activity>
+        <activity android:name=".Acercade_Activity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

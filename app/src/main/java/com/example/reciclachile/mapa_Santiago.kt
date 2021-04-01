@@ -2774,5 +2774,7 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(
                 MarkerOptions().position(point520).title("Los Dominicos").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        
     }
 }

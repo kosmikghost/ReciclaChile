@@ -59,7 +59,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun Help(){
-        Toast.makeText(applicationContext,"Help", Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext,"Ayuda", Toast.LENGTH_SHORT).show()
+        val helpact = Intent(applicationContext, help_Activity::class.java)
+        startActivity(helpact)
     }
 
     private fun Salir(){

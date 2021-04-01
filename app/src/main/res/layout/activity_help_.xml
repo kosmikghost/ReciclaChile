@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help_Activity"
+    android:background="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10px"
+            android:text="Mapa"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#83000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="1. Para acceder al mapa primero debes presionar el boton que direcciona a las ubicaciones."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:src="@drawable/logoxample" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="2. Luego de abrir un mapa selecciona un punto verde mostrado en pantalla para ver información de este, en este caso aparecerá la dirección en la parte superior y el tipo de reciclaje en la parte posterior."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/paso2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="3. Si deseas conocer la ruta y como llegar debes presionar el botón de indicaciones ubicado en la parte inferior derecha de la pantalla. "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/paso3" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="4. Al presionar este botón te direccionará a la aplicación Google Maps y mostrara como llegar desde tu ubicación."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/paso5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="5. Si deseas visualizar el punto verde en la aplicación Google Maps presiona el botón que está a la derecha del botón de indicaciones."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/paso4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="6. Al presionar este botón direccionará a la aplicación Google Maps."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="309dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="60px"
+            app:srcCompat="@drawable/paso6" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
