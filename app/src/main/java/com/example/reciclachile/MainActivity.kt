@@ -18,12 +18,21 @@ class MainActivity : AppCompatActivity() {
 
         clickAcercade()
 
+        comoReciclar()
+
     }
 
     private fun clickMapa(){
         btnmapa.setOnClickListener(){
             val ventanaMapa = Intent(applicationContext, mapa_Santiago::class.java)
             startActivity(ventanaMapa)
+        }
+    }
+
+    private fun comoReciclar(){
+        btnReciclar.setOnClickListener(){
+            val reciclar = Intent(applicationContext, ComoReciclarActivity::class.java)
+            startActivity(reciclar)
         }
     }
 
