@@ -2668,5 +2668,111 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         )
 
         // 500
+        // 500
+
+        val point500 = LatLng(-33.39132300, -70.64862900)
+        mMap.addMarker(
+                MarkerOptions().position(point500).title("Avenida Raúl Montt").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point501 = LatLng(-33.39073000, -70.59774500)
+        mMap.addMarker(
+                MarkerOptions().position(point501).title("Calle Bicentenario").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point502 = LatLng(-33.39611816, -70.67097473)
+        mMap.addMarker(
+                MarkerOptions().position(point502).title("Avenida Independencia 3499").snippet("Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point503 = LatLng(-33.40647600, -70.70155400)
+        mMap.addMarker(
+                MarkerOptions().position(point503).title("Avenida Domingo Santa María 3962").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point504 = LatLng(-33.39394100, -70.58176900)
+        mMap.addMarker(
+                MarkerOptions().position(point504).title("Avenida Luis Pasteur 5418").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point505 = LatLng(-33.44664980, -70.75937430)
+        mMap.addMarker(
+                MarkerOptions().position(point505).title("Calle Corona Sueca 8852").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point506 = LatLng(-33.52733200, -70.79687500)
+        mMap.addMarker(
+                MarkerOptions().position(point506).title("El Conquistador 1561").snippet("Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point507 = LatLng(-33.43641030, -70.74866440)
+        mMap.addMarker(
+                MarkerOptions().position(point507).title("San Francisco 8586").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point508 = LatLng(-33.40578700, -70.54271800)
+        mMap.addMarker(
+                MarkerOptions().position(point508).title("Camino El Alba N° 8990").snippet("Vidrio, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point509 = LatLng(-33.39501953, -70.65798950)
+        mMap.addMarker(
+                MarkerOptions().position(point509).title("Avenida Dorsal 1201 (Unimarc)").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point510 = LatLng(-33.55394000, -70.79454700)
+        mMap.addMarker(
+                MarkerOptions().position(point510).title("Avenida Parque Central Oriente 200").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point511 = LatLng(-33.45298100, -70.76288600)
+        mMap.addMarker(
+                MarkerOptions().position(point511).title("Isla Portezuelo 615").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point512 = LatLng(-33.39856500, -70.56894100)
+        mMap.addMarker(
+                MarkerOptions().position(point512).title("Nuestra Señora del Rosario 850").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point513 = LatLng(-33.55422240, -70.79430050)
+        mMap.addMarker(
+                MarkerOptions().position(point513).title("Parque Central Oriente 100").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point514 = LatLng(-33.39826965, -70.67012024)
+        mMap.addMarker(
+                MarkerOptions().position(point514).title("Avenida Dorsal 1904 (Juzgado de Policia Local)").snippet("Papel, Cartón, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point515 = LatLng(-33.52023580, -70.79390140)
+        mMap.addMarker(
+                MarkerOptions().position(point515).title("Campanario 2679").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point516 = LatLng(-33.51941250, -70.79341770)
+        mMap.addMarker(
+                MarkerOptions().position(point516).title("Avenida Portales 2471").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point517 = LatLng(-33.39392100, -70.64277600)
+        mMap.addMarker(
+                MarkerOptions().position(point517).title("Avenida Recoleta 3500").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point518 = LatLng(-33.40790800, -70.54329900)
+        mMap.addMarker(
+                MarkerOptions().position(point518).title("Camino El Alba 8600").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point519 = LatLng(-33.39365760, -70.63693660)
+        mMap.addMarker(
+                MarkerOptions().position(point519).title("Salitre 3431").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point520 = LatLng(-33.40818480, -70.54336350)
+        mMap.addMarker(
+                MarkerOptions().position(point520).title("Los Dominicos").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
     }
 }
