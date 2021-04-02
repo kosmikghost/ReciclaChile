@@ -4,22 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".reciclar_vidrio">
+    tools:context=".reciclar_vidrio"
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="10px"
             android:text="VIDRIO"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#83000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
         <TextView
             android:id="@+id/textView1"
@@ -30,7 +41,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text=" Para reciclar vidrio no se debe realizar segregación de estos. Sin embargo aclararemos aspectos importantes a la hora de querer reciclar este material:"
-            android:textColor="#000000" />
+            android:textColor="@color/white" />
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
@@ -40,7 +51,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text=" •Se reciclan los envases de vidrio (frascos de vidrio) y botellas de vidrio (Cerveza, Vino, Bebidas y Jugos, etc)."
-            android:textColor="#000000" />
+            android:textColor="@color/white"/>
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
@@ -50,7 +61,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text=" •NO SE RECICLAN ampolletas, vidrios de automóviles, espejos, entre otros."
-            android:textColor="#000000" />
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
 
     </LinearLayout>
 
