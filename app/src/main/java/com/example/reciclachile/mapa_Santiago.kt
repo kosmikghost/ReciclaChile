@@ -2376,7 +2376,7 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         )
 
         // 400
-        
+
         val point400 = LatLng(-33.41211900, -70.57155300)
         mMap.addMarker(
             MarkerOptions().position(point400).title("UV C7 Plaza del Inca La Capitania N°255")

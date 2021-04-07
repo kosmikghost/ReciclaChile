@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_margin="10dp"
-            android:src="@drawable/banner"
+            android:src="@drawable/banner2"
             android:scaleType="fitXY"/>
 
         //Texto
@@ -72,7 +72,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#83000000"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
@@ -81,22 +80,19 @@
 
         <Button
             android:id="@+id/btnmapa"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:text="Mapa"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/btnhome_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnubicacion_style"
             android:textSize="16dp"
             android:textStyle="bold"
             />
+
 
     </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:background="#83000000"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -104,26 +100,17 @@
 
             <Button
                 android:id="@+id/btnReciclar"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:text="Como Reciclar"
-                android:layout_marginLeft="10dp"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/btnhome_style"
-                android:textSize="16dp"
-                android:textStyle="bold"
+                android:background="@drawable/btnreciclar_style"
                 />
 
             <Button
                 android:id="@+id/btnAD"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:text="Acerca de"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/btnhome_style"
-                android:textSize="16dp"
-                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btnacercade_style"
                 />
 
         </LinearLayout>
