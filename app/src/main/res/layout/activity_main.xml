@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_margin="10dp"
-            android:src="@drawable/banner2"
+            android:src="@drawable/banner"
             android:scaleType="fitXY"/>
 
         //Texto
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#000000"
+            android:background="#D32C7E3B"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Acciones para cuidar el planeta"
+                android:text="🌱 Acciones para Cuidar el Planeta 🌱"
                 android:textSize="18dp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
