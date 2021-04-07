@@ -161,7 +161,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="PLÁSTICOS"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnvidrio"
@@ -172,7 +174,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="VIDRIO"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnPapeles"
@@ -183,7 +187,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="PAPELES Y TIPOS DE CARTONES"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnChatarra"
@@ -194,7 +200,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="CHATARRA"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnAluminio"
@@ -205,7 +213,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="ALUMINIO"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnPila"
@@ -216,7 +226,9 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/btnhome_style"
             android:text="PILAS Y TAPAS"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
     </LinearLayout>
 
     </LinearLayout>
