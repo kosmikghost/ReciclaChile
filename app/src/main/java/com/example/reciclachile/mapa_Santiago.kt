@@ -3839,6 +3839,529 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
                 MarkerOptions().position(point672).title("Juana Atala de Hirmas 2460").snippet("Papel, Cartón, Cartón para bebida, Plástico, Metal")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
+        val point673 = LatLng(-33.44843150, -70.72476440)
+        mMap.addMarker(
+                MarkerOptions().position(point673).title("Av. NEPTUNO ESQUINA CALLE TERRITORIO ANTARTICO").snippet("Punto Limpio - Vidrio, Papel, Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point674 = LatLng(-33.41553680, -70.59203060)
+        mMap.addMarker(
+                MarkerOptions().position(point674).title("Apoquindo 3650").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point675 = LatLng(-33.41469900, -70.59850800)
+        mMap.addMarker(
+                MarkerOptions().position(point675).title("Plaza Perú (Isidora Goyenechea 3051)").snippet("Pila")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point676 = LatLng(-33.41412800, -70.63517400)
+        mMap.addMarker(
+                MarkerOptions().position(point676).title("Francisco Silva 1480").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point677 = LatLng(-33.42968290, -70.54746170)
+        mMap.addMarker(
+                MarkerOptions().position(point677).title("Francisco de Bilbao con Duqueco, Bandejón Central Francisco Bilbao").snippet("Punto Limpio - Vidrio, Papel, Cartón, Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point678 = LatLng(-33.42981620, -70.54784620)
+        mMap.addMarker(
+                MarkerOptions().position(point678).title("Bandejón Central Francisco Bilbao frente a entrada Parque Alberto Hurtado").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point679 = LatLng(-33.42965060, -70.54821600)
+        mMap.addMarker(
+                MarkerOptions().position(point679).title("Bandejón Central Francisco Bilbao").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Pila")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point680 = LatLng(-33.50988700, -70.76543200)
+        mMap.addMarker(
+                MarkerOptions().position(point680).title("Templo de Maipú, Camino Rinconada").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point681 = LatLng(-33.44840700, -70.72319100)
+        mMap.addMarker(
+                MarkerOptions().position(point681).title("Territorio Antártico/Neptuno").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point682 = LatLng(-33.42996300, -70.69317800)
+        mMap.addMarker(
+                MarkerOptions().position(point682).title("Juan Barros/Mendoza").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point683 = LatLng(-33.42996300, -70.69317800)
+        mMap.addMarker(
+                MarkerOptions().position(point683).title("Juan Barros").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point684 = LatLng(-33.43003420, -70.69276430)
+        mMap.addMarker(
+                MarkerOptions().position(point684).title("Juan Barros/Mendoza").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point685 = LatLng(-33.44044500, -70.71144100)
+        mMap.addMarker(
+                MarkerOptions().position(point685).title("Calle Los Tamarindos 5467").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point686 = LatLng(-33.43973200, -70.70999900)
+        mMap.addMarker(
+                MarkerOptions().position(point686).title("9 de Julio 5300").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point687 = LatLng(-33.43744600, -70.70593910)
+        mMap.addMarker(
+                MarkerOptions().position(point687).title("Plaza José Besa V. Rozas/G. de Toro").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point688 = LatLng(-33.43754500, -70.70578200)
+        mMap.addMarker(
+                MarkerOptions().position(point688).title("Martínez de Rozas 5093").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point689 = LatLng(-33.42094900, -70.66524600)
+        mMap.addMarker(
+                MarkerOptions().position(point689).title("Fidel Monje esq. Bajeles").snippet("Vidrio, Papel")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point690 = LatLng(-33.43969530, -70.53250600)
+        mMap.addMarker(
+                MarkerOptions().position(point690).title("Leonardo Murialdo 248").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point691 = LatLng(-33.41523300, -70.61745050)
+        mMap.addMarker(
+                MarkerOptions().position(point691).title("Avenida Parque Metropolitano acceso Pedro Valdivia Norte").snippet("Punto Limpio - Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point692 = LatLng(-33.41692000, -70.64137300)
+        mMap.addMarker(
+                MarkerOptions().position(point692).title("Las Galaxias 1274").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point693 = LatLng(-33.41696300, -70.64044700)
+        mMap.addMarker(
+                MarkerOptions().position(point693).title("Pasaje El sol").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point694 = LatLng(-33.44173800, -70.71068600)
+        mMap.addMarker(
+                MarkerOptions().position(point694).title("Calle Los Copihues 5462").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point695 = LatLng(-33.42215777, -70.66557606)
+        mMap.addMarker(
+                MarkerOptions().position(point695).title("Gamero esq. Salomon Sack").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point696 = LatLng(-33.44473300, -70.71441700)
+        mMap.addMarker(
+                MarkerOptions().position(point696).title("Scala 751").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point697 = LatLng(-33.41885800, -70.64820900)
+        mMap.addMarker(
+                MarkerOptions().position(point697).title("Avenida Unión 796").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point698 = LatLng(-33.42845100, -70.68305300)
+        mMap.addMarker(
+                MarkerOptions().position(point698).title("Lucas Sierra 3557").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point699 = LatLng(-33.41818900, -70.64196800)
+        mMap.addMarker(
+                MarkerOptions().position(point699).title("Plaza Villa San Cristóbal").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+
+        // 700
+
+        val point700 = LatLng(-33.44062100, -70.53497500)
+        mMap.addMarker(
+                MarkerOptions().position(point700).title("Avenida Principe de Gales 9140").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point701 = LatLng(-33.42877150, -70.68254000)
+        mMap.addMarker(
+                MarkerOptions().position(point701).title("Avenida Matucana / Mapocho").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point702 = LatLng(-33.43394800, -70.69379200)
+        mMap.addMarker(
+                MarkerOptions().position(point702).title("Andes 4320").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point703 = LatLng(-33.44158700, -70.53488700)
+        mMap.addMarker(
+                MarkerOptions().position(point703).title("Avenida Principe de Gales 9200").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point704 = LatLng(-33.62930300, -70.71329500)
+        mMap.addMarker(
+                MarkerOptions().position(point704).title("Jorge Alessandri con ruta 5 20005").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point705 = LatLng(-33.44117800, -70.53616390)
+        mMap.addMarker(
+                MarkerOptions().position(point705).title("Avenida Principe de Gales 9140").snippet("Punto Limpio - Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point706 = LatLng(-33.51084100, -70.75991600)
+        mMap.addMarker(
+                MarkerOptions().position(point706).title("Avenida 5 de Abril 216").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point707 = LatLng(-33.44004700, -70.70193800)
+        mMap.addMarker(
+                MarkerOptions().position(point707).title("San Pablo 4870").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point708 = LatLng(-33.42262600, -70.65542600)
+        mMap.addMarker(
+                MarkerOptions().position(point708).title("Independencia 740").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point709 = LatLng(-33.50250600, -70.75665200)
+        mMap.addMarker(
+                MarkerOptions().position(point709).title("Avenida Pajaritos 2689").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point710 = LatLng(-33.44021520, -70.70163000)
+        mMap.addMarker(
+                MarkerOptions().position(point710).title("San Pablo 4870").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point711 = LatLng(-33.47133020, -70.73830960)
+        mMap.addMarker(
+                MarkerOptions().position(point711).title("Avenida Pajarito 9130").snippet("Punto Limpio - Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point712 = LatLng(-33.43492500, -70.55042990)
+        mMap.addMarker(
+                MarkerOptions().position(point712).title("Valenzuela Puelma 7541").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point713 = LatLng(-33.63998000, -70.69213900)
+        mMap.addMarker(
+                MarkerOptions().position(point713).title("Camino Los Morros 1480").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point714 = LatLng(-33.43024030, -70.67959280)
+        mMap.addMarker(
+                MarkerOptions().position(point714).title("Chacabuco/Chañarcillo").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point715 = LatLng(-33.43028000, -70.67964900)
+        mMap.addMarker(
+                MarkerOptions().position(point715).title("Chacabuco").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point716 = LatLng(-33.45093200, -70.71666000)
+        mMap.addMarker(
+                MarkerOptions().position(point716).title("Avenida Dorsal 6001").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point717 = LatLng(-33.42138700, -70.59668000)
+        mMap.addMarker(
+                MarkerOptions().position(point717).title("Mariano Sanchez Fontecilla 498").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point718 = LatLng(-33.47831070, -70.74298120)
+        mMap.addMarker(
+                MarkerOptions().position(point718).title("Avenida Los Pajaritos 4760").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point719 = LatLng(-33.50829110, -70.75756350)
+        mMap.addMarker(
+                MarkerOptions().position(point719).title("Av. Los Pajaritos 2100").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point720 = LatLng(-33.42694800, -70.57279200)
+        mMap.addMarker(
+                MarkerOptions().position(point720).title("Juan Esteban Montero Nº 4760 UV C- 4 Francisco Bilbao").snippet("Vidrio, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point721 = LatLng(-33.51628900, -70.75948300)
+        mMap.addMarker(
+                MarkerOptions().position(point721).title("Avenida Portales 205").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point722 = LatLng(-33.42591900, -70.66382800)
+        mMap.addMarker(
+                MarkerOptions().position(point722).title("Calle Uno 721").snippet("Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point723 = LatLng(-33.42157745, -70.64050293)
+        mMap.addMarker(
+                MarkerOptions().position(point723).title("Perú esq Alberto Figueroa").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point724 = LatLng(-33.42052730, -70.61690690)
+        mMap.addMarker(
+                MarkerOptions().position(point724).title("Avenida Sta. Maria 2020 2020").snippet("Punto Limpio - Vidrio, Papel, Cartón, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point725 = LatLng(-33.42181300, -70.64051600)
+        mMap.addMarker(
+                MarkerOptions().position(point725).title("Avenida Peru").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point726 = LatLng(-33.42075235, -70.61455466)
+        mMap.addMarker(
+                MarkerOptions().position(point726).title("Santa Maria 2020").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point727 = LatLng(-33.50707650, -70.75628170)
+        mMap.addMarker(
+                MarkerOptions().position(point727).title("Maipu / Bailen").snippet("Papel, Cartón, Cartón para bebida")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point728 = LatLng(-33.47759800, -70.74098400)
+        mMap.addMarker(
+                MarkerOptions().position(point728).title("Avenida Los Pajaritos 4909").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point729 = LatLng(-33.45591700, -70.72061200)
+        mMap.addMarker(
+                MarkerOptions().position(point729).title("Avenida General Bonilla 6100").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point730 = LatLng(-33.44799800, -70.71025100)
+        mMap.addMarker(
+                MarkerOptions().position(point730).title("Calle La Comuna 5450").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point731 = LatLng(-33.43153100, -70.67846200)
+        mMap.addMarker(
+                MarkerOptions().position(point731).title("Herrera/Atacama").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point732 = LatLng(-33.42650600, -70.57877200)
+        mMap.addMarker(
+                MarkerOptions().position(point732).title("Avenida Isabel La Católica 4360").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point733 = LatLng(-33.44798300, -70.70981600)
+        mMap.addMarker(
+                MarkerOptions().position(point733).title("Calle La Comuna 5438").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point734 = LatLng(-33.53046340, -70.76026400)
+        mMap.addMarker(
+                MarkerOptions().position(point734).title("Camino Melipilla").snippet("Vidrio, Papel, Cartón, Cartón para bebida")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point735 = LatLng(-33.42852700, -70.66890900)
+        mMap.addMarker(
+                MarkerOptions().position(point735).title("Avenida Presidente Balmaceda con Ricardo Cumming null").snippet("Punto Limpio - Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point736 = LatLng(-33.42392500, -70.64880900)
+        mMap.addMarker(
+                MarkerOptions().position(point736).title("Los Olivos").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point737 = LatLng(-33.45056500, -70.71281400)
+        mMap.addMarker(
+                MarkerOptions().position(point737).title("Avenida Dorsal 5864").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point738 = LatLng(-33.42199200, -70.60860600)
+        mMap.addMarker(
+                MarkerOptions().position(point738).title("Nueva Providencia 2250").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point739 = LatLng(-33.44111470, -70.54332170)
+        mMap.addMarker(
+                MarkerOptions().position(point739).title("Carlos Ossandón 1255-1551").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point740 = LatLng(-33.42892300, -70.66945000)
+        mMap.addMarker(
+                MarkerOptions().position(point740).title("Presidente Balmaceda").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point741 = LatLng(-33.42211520, -70.60872610)
+        mMap.addMarker(
+                MarkerOptions().position(point741).title("Av. Providencia (Frente Restaurant Giratorío) 2250").snippet("Cartón")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point742 = LatLng(-33.52596700, -70.75890400)
+        mMap.addMarker(
+                MarkerOptions().position(point742).title("Pasaje San Ramón 101").snippet("Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point743 = LatLng(-33.42339000, -70.64234900)
+        mMap.addMarker(
+                MarkerOptions().position(point743).title("Fischer 395").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point744 = LatLng(-33.42971740, -70.67031970)
+        mMap.addMarker(
+                MarkerOptions().position(point744).title("Yungay/Cautín").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point745 = LatLng(-33.62500530, -70.71160540)
+        mMap.addMarker(
+                MarkerOptions().position(point745).title("Volcán Puntiagudo/Volcán Tinguiririca").snippet("Punto Limpio - Vidrio, Papel, Cartón, Plástico")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point746 = LatLng(-33.62292530, -70.71421080)
+        mMap.addMarker(
+                MarkerOptions().position(point746).title("Lomas de Mirasur 884").snippet("Punto Limpio - Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        )
+        val point747 = LatLng(-33.42387300, -70.64015100)
+        mMap.addMarker(
+                MarkerOptions().position(point747).title("Avenida Peru").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point748 = LatLng(-33.46660200, -70.72948500)
+        mMap.addMarker(
+                MarkerOptions().position(point748).title("Gladys Marín Millie 6913-6947").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point749 = LatLng(-33.45801140, -70.72006060)
+        mMap.addMarker(
+                MarkerOptions().position(point749).title("Laguna Sur con esquina Avenida Oceanica").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point750 = LatLng(-33.46760100, -70.72996800)
+        mMap.addMarker(
+                MarkerOptions().position(point750).title("Avenida Gladys Marín Millie 6950").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point751 = LatLng(-33.42388916, -70.63983917)
+        mMap.addMarker(
+                MarkerOptions().position(point751).title("Perú esq Maestra Lidia Torres").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point752 = LatLng(-33.44214430, -70.54445630)
+        mMap.addMarker(
+                MarkerOptions().position(point752).title("Avenida Echeñique 8428").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point753 = LatLng(-33.42546310, -70.64869840)
+        mMap.addMarker(
+                MarkerOptions().position(point753).title("Juárez Larga 760").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point754 = LatLng(-33.43249570, -70.67496720)
+        mMap.addMarker(
+                MarkerOptions().position(point754).title("Mapocho/Libertad").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point755 = LatLng(-33.43249570, -70.67496720)
+        mMap.addMarker(
+                MarkerOptions().position(point755).title("Diego Rivera con Leonardo da Vinci, Villa Los Portales").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point756 = LatLng(-33.45144280, -70.71092150)
+        mMap.addMarker(
+                MarkerOptions().position(point756).title("Las Rejas Norte").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point757 = LatLng(-33.62765420, -70.70590150)
+        mMap.addMarker(
+                MarkerOptions().position(point757).title("Diego de Rivera").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point758 = LatLng(-33.50916900, -70.75330500)
+        mMap.addMarker(
+                MarkerOptions().position(point758).title("Primera Transversal 2000").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point759 = LatLng(-33.44408500, -70.69884800)
+        mMap.addMarker(
+                MarkerOptions().position(point759).title("Huérfanos 4651-4661").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point760 = LatLng(-33.44408250, -70.69879260)
+        mMap.addMarker(
+                MarkerOptions().position(point760).title("Huérfanos 4661").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point761 = LatLng(-33.50529500, -70.75179300)
+        mMap.addMarker(
+                MarkerOptions().position(point761).title("Capellán Benavides 2321").snippet("Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point762 = LatLng(-33.42870800, -70.58098400)
+        mMap.addMarker(
+                MarkerOptions().position(point762).title("Juan De Austria Nº 1705 UV C- 3 San Pedro").snippet("Vidrio, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point763 = LatLng(-33.42652200, -70.59138640)
+        mMap.addMarker(
+                MarkerOptions().position(point763).title("Eliodoro Yañez 2995").snippet("Cartón")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point764 = LatLng(-33.42427100, -70.61634800)
+        mMap.addMarker(
+                MarkerOptions().position(point764).title("La Concepción 236").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point765 = LatLng(-33.42619800, -70.64598610)
+        mMap.addMarker(
+                MarkerOptions().position(point765).title("Juárez Larga 616").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point766 = LatLng(-33.43604580, -70.68101570)
+        mMap.addMarker(
+                MarkerOptions().position(point766).title("San Pablo 3358").snippet("Pila, Celular")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point767 = LatLng(-33.51602600, -70.75427200)
+        mMap.addMarker(
+                MarkerOptions().position(point767).title("Cuatro Alamos 215").snippet("Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point768 = LatLng(-33.42705444, -70.59519711)
+        mMap.addMarker(
+                MarkerOptions().position(point768).title("Juan de Dios Vial 1035").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point769 = LatLng(-33.44571100, -70.69866200)
+        mMap.addMarker(
+                MarkerOptions().position(point769).title("Nueva Imperial 4713").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point770 = LatLng(-33.44374640, -70.69513330)
+        mMap.addMarker(
+                MarkerOptions().position(point770).title("Cruchaga Montt/Huérfanos").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point771 = LatLng(-33.43184700, -70.57472200)
+        mMap.addMarker(
+                MarkerOptions().position(point771).title("Avenida Ossa 2294").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point772 = LatLng(-33.42696300, -70.64477900)
+        mMap.addMarker(
+                MarkerOptions().position(point772).title("Buenos Aires/Manzano").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point773 = LatLng(-33.43539900, -70.67695000)
+        mMap.addMarker(
+                MarkerOptions().position(point773).title("San Pablo 2989").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point774 = LatLng(-33.43076300, -70.57910200)
+        mMap.addMarker(
+                MarkerOptions().position(point774).title("Avenida Francisco Bilbao 4144").snippet("Vidrio, Papel, Cartón, Cartón para bebida, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point775 = LatLng(-33.43126700, -70.57872700)
+        mMap.addMarker(
+                MarkerOptions().position(point775).title("Avenida Francisco Bilbao 4144").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point776 = LatLng(-33.43958900, -70.55610500)
+        mMap.addMarker(
+                MarkerOptions().position(point776).title("Avenida Principe de Gales 7271").snippet("Vidrio")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
 
 
     }
