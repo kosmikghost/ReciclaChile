@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ComoReciclarActivity"
-    android:background="@drawable/background">
+    android:background="@color/verde">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#83000000">
 
     <TextView
         android:id="@+id/textView18"
@@ -152,83 +153,85 @@
             android:text="  De esta manera se estarán ahorrando RECURSOS NATURALES y cuidará nuestro mundo del plástico que puede llegar a los mares, cómo también puede llegar a la puerta de tu casa o vecinos."
             android:textColor="@color/white"/>
 
-        <Button
-            android:id="@+id/btnPlastico"
-            android:layout_width="302dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="PLÁSTICOS"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
 
-        <Button
-            android:id="@+id/btnvidrio"
-            android:layout_width="302dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="VIDRIO"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnPlastico"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/plastico"/>
 
-        <Button
-            android:id="@+id/btnPapeles"
-            android:layout_width="302dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="PAPELES Y TIPOS DE CARTONES"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnvidrio"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/vidrio" />
 
-        <Button
-            android:id="@+id/btnChatarra"
-            android:layout_width="302dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="CHATARRA"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btnAluminio"
-            android:layout_width="302dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="ALUMINIO"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
 
-        <Button
-            android:id="@+id/btnPila"
-            android:layout_width="302dp"
+            <Button
+                android:id="@+id/btnPapeles"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/papel"/>
+
+            <Button
+                android:id="@+id/btnChatarra"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/chatarra"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/btnhome_style"
-            android:text="PILAS Y TAPAS"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnAluminio"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/aluminio"/>
+
+            <Button
+                android:id="@+id/btnPila"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bateria"/>
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
     </LinearLayout>
