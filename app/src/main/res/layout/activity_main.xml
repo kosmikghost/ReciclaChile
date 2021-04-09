@@ -80,7 +80,7 @@
         <Button
             android:id="@+id/btnmapa"
             android:layout_width="match_parent"
-            android:layout_height="85dp"
+            android:layout_height="80dp"
             android:background="@drawable/btnubicacion_style"
             android:textSize="16dp"
             android:textStyle="bold"
@@ -100,7 +100,7 @@
             <Button
                 android:id="@+id/btnReciclar"
                 android:layout_width="165dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:background="@drawable/btnreciclar_style"
                 android:layout_gravity="center"
                 />
@@ -108,7 +108,7 @@
             <Button
                 android:id="@+id/btnAD"
                 android:layout_width="165dp"
-                android:layout_height="match_parent"
+                android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/btnacercade_style"
                 />
