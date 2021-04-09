@@ -1,7 +1,12 @@
 package com.example.reciclachile
 
+import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -15,13 +20,54 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
 
+    lateinit var fusedLocationProviderClient: FusedLocationProviderClient
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mapa__santiago)
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
+        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
+
+        fetchLocation()
+
+    }
+
+    private fun fetchLocation(){
+
+        val task = fusedLocationProviderClient.lastLocation
+
+        if (ActivityCompat.checkSelfPermission(this,android.Manifest.permission.ACCESS_FINE_LOCATION)
+            != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)
+            != PackageManager.PERMISSION_GRANTED){
+
+            ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),101)
+            return
+
+        }
+
+        task.addOnSuccessListener {
+            if(it!=null){
+                val santiago = LatLng(it.latitude, it.longitude)
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 14f))
+
+                val ubicacionUsuario = LatLng(it.latitude, it.longitude)
+                mMap.addMarker(
+                    MarkerOptions().position(ubicacionUsuario).title("Tu Ubicación").snippet("")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
+                )
+
+
+            }else{
+                val santiago = LatLng(-33.448760060942966, -70.6524823222668)
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 10f))
+            }
+        }
+
     }
 
     /**
@@ -39,8 +85,6 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
 
         // Add a marker in Sydney and move the camera
-        val santiago = LatLng(-33.448760060942966, -70.6524823222668)
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 10f))
 
 
         val point1 = LatLng(-33.586319, -70.629181)
@@ -3468,7 +3512,7 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         )
         val point599 = LatLng(-33.52438420, -70.77957000)
         mMap.addMarker(
-                MarkerOptions().position(point598).title("Carmen Esq. Nueva San Martin 1500").snippet("Vidrio")
+                MarkerOptions().position(point599).title("Carmen Esq. Nueva San Martin 1500").snippet("Vidrio")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
 
