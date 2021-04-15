@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/verde">
+    android:background="@drawable/pixelbackground2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,12 +16,17 @@
         //Logo
 
         <ImageView
+            android:id="@+id/ecochile"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:src="@drawable/ecochile"/>
+
+        <ImageView
             android:id="@+id/imagen"
             android:layout_width="match_parent"
-            android:layout_height="170dp"
+            android:layout_height="145dp"
             android:layout_margin="10dp"
-            android:src="@drawable/banner"
-            android:scaleType="fitXY"/>
+            android:src="@drawable/logohome"/>
 
         //Texto
 
@@ -29,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#D32C7E3B"
+            android:background="#D33BC153"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -48,7 +53,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="100dp"
             android:orientation="vertical"
             android:background="#83000000"
             android:layout_marginLeft="10dp"
@@ -118,6 +123,7 @@
             android:layout_width="320dp"
             android:layout_height="50dp"
             android:gravity="center">
+
 
             <com.google.android.gms.ads.AdView
                 xmlns:ads="http://schemas.android.com/apk/res-auto"

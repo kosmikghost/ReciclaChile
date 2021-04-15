@@ -1,5 +1,6 @@
 package com.example.reciclachile
 
+import android.app.Activity
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -22,6 +23,8 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
 
     lateinit var fusedLocationProviderClient: FusedLocationProviderClient
 
+    var verificador=false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mapa__santiago)
@@ -41,6 +44,7 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
 
         val task = fusedLocationProviderClient.lastLocation
 
+
         if (ActivityCompat.checkSelfPermission(this,android.Manifest.permission.ACCESS_FINE_LOCATION)
             != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)
             != PackageManager.PERMISSION_GRANTED){
@@ -51,7 +55,12 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         }
 
         task.addOnSuccessListener {
+            val santiago = LatLng(-33.448760060942966, -70.6524823222668)
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 10f))
             if(it!=null){
+
+                verificador=true
+
                 val santiago = LatLng(it.latitude, it.longitude)
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 14f))
 
@@ -59,16 +68,14 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
                 mMap.addMarker(
                     MarkerOptions().position(ubicacionUsuario).title("Tu Ubicación").snippet("")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
+
                 )
-
-
-            }else{
-                val santiago = LatLng(-33.448760060942966, -70.6524823222668)
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 10f))
             }
         }
 
     }
+
+
 
     /**
      * Manipulates the map once available.
@@ -80,12 +87,17 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
      * installed Google Play services and returned to the app.
      */
     override fun onMapReady(googleMap: GoogleMap) {
+
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
 
-        // Add a marker in Sydney and move the camera
+        if (verificador==false){
 
+            val santiago = LatLng(-33.448760060942966, -70.6524823222668)
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 11f))
+
+        }
 
         val point1 = LatLng(-33.586319, -70.629181)
         mMap.addMarker(

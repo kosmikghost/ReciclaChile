@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ComoReciclarActivity"
-    android:background="@color/verde">
+    android:background="@drawable/pixelbackground2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#E1FFFFFF"
+        android:background="#92FFFFFF"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
