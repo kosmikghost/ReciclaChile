@@ -1,13 +1,14 @@
 package com.example.reciclachile
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
+import androidx.core.content.ContextCompat
+import com.google.android.gms.location.*
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -20,10 +21,36 @@ import com.google.android.gms.maps.model.MarkerOptions
 class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
+    private val LOCATION_PERMISSION_REQUEST = 1
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+    private lateinit var locationRequest: LocationRequest
+    private lateinit var locationCallback: LocationCallback
 
-    lateinit var fusedLocationProviderClient: FusedLocationProviderClient
+    private fun getLocationAccess() {
+        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            mMap.isMyLocationEnabled = true
+            getLocationUpdates()
+            startLocationUpdates()
 
-    var verificador=false
+        }
+        else
+            ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), LOCATION_PERMISSION_REQUEST)
+    }
+
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+        if (requestCode == LOCATION_PERMISSION_REQUEST) {
+            if (grantResults.contains(PackageManager.PERMISSION_GRANTED)) {
+                mMap.isMyLocationEnabled = true
+                getLocationAccess()
+            }
+            else {
+                Toast.makeText(this, "Usuario no ha permitido uso de ubicación", Toast.LENGTH_LONG).show()
+                finish()
+            }
+        }
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,49 +60,33 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-
-        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
-
-        fetchLocation()
-
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
     }
 
-    private fun fetchLocation(){
+    private fun getLocationUpdates() {
+        locationRequest = LocationRequest()
+        locationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
 
-        val task = fusedLocationProviderClient.lastLocation
-
-
-        if (ActivityCompat.checkSelfPermission(this,android.Manifest.permission.ACCESS_FINE_LOCATION)
-            != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)
-            != PackageManager.PERMISSION_GRANTED){
-
-            ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),101)
-            return
-
-        }
-
-        task.addOnSuccessListener {
-            val santiago = LatLng(-33.448760060942966, -70.6524823222668)
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 10f))
-            if(it!=null){
-
-                verificador=true
-
-                val santiago = LatLng(it.latitude, it.longitude)
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 14f))
-
-                val ubicacionUsuario = LatLng(it.latitude, it.longitude)
-                mMap.addMarker(
-                    MarkerOptions().position(ubicacionUsuario).title("Tu Ubicación").snippet("")
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-
-                )
+        locationCallback = object : LocationCallback() {
+            override fun onLocationResult(locationResult: LocationResult) {
+                if (locationResult.locations.isNotEmpty()) {
+                    val location = locationResult.lastLocation
+                    if (location != null) {
+                        val latLng = LatLng(location.latitude, location.longitude)
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15f))
+                    }
+                }
             }
         }
-
     }
 
-
+    private fun startLocationUpdates() {
+        fusedLocationClient.requestLocationUpdates(
+                locationRequest,
+                locationCallback,
+                null
+        )
+    }
 
     /**
      * Manipulates the map once available.
@@ -90,14 +101,10 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
 
         mMap = googleMap
 
-        // Add a marker in Sydney and move the camera
+        getLocationAccess()
 
-        if (verificador==false){
-
-            val santiago = LatLng(-33.448760060942966, -70.6524823222668)
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 11f))
-
-        }
+        //val santiago = LatLng(-33.448760060942966, -70.6524823222668)
+        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(santiago, 11f))
 
         val point1 = LatLng(-33.586319, -70.629181)
         mMap.addMarker(
