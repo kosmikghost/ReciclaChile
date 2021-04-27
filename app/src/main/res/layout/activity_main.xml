@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/pixelbackground2">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,13 +18,15 @@
         <ImageView
             android:id="@+id/ecochile"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:src="@drawable/ecochile"/>
+            android:layout_height="55dp"
+            android:src="@drawable/ecochile"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"/>
 
         <ImageView
             android:id="@+id/imagen"
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:src="@drawable/logohome"/>
 
@@ -34,16 +36,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#D33BC153"
+            android:background="#b8cc77"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
             >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🌱 Acciones para Cuidar el Planeta 🌱"
+                android:text="🌱 Acciones para Cuidar el Planeta  🌱"
                 android:textSize="18dp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
@@ -61,7 +64,7 @@
             android:padding="10dp">
 
             <TextView
-                android:id="@+id/texto"
+                android:id="@+id/textoAccion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

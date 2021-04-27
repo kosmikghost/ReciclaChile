@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         comoReciclar()
 
+        TextoHome()
     }
 
 
@@ -90,6 +91,27 @@ class MainActivity : AppCompatActivity() {
 
     private fun Salir(){
         Toast.makeText(applicationContext,"Salir", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun TextoHome(){
+
+        var num = (0..10).random();
+
+        when (num) {
+            0 -> textoAccion.setText("Accion 0")
+            1 -> textoAccion.setText("Accion 1")
+            2 -> textoAccion.setText("Accion 2")
+            3 -> textoAccion.setText("Accion 3")
+            4 -> textoAccion.setText("Accion 4")
+            5 -> textoAccion.setText("Accion 5")
+            6 -> textoAccion.setText("Accion 6")
+            7 -> textoAccion.setText("Accion 7")
+            8 -> textoAccion.setText("Accion 8")
+            9 -> textoAccion.setText("Accion 9")
+            10 -> textoAccion.setText("Accion 10")
+        }
+
+
     }
 
 }
