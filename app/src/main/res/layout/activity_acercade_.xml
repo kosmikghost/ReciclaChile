@@ -163,13 +163,17 @@
                 android:textColor="@color/black"
                 android:textSize="13dp"
                 android:layout_gravity="center"
-                android:layout_margin="15dp" />
+                android:layout_margin="10dp" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/paypalbutton"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
                 android:text="Paypal"
-                android:layout_marginBottom="5dp"/>
+                android:layout_marginBottom="10dp"
+                android:background="#DDB478"
+                android:textStyle="bold"
+                />
 
 
         </LinearLayout>
