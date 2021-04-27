@@ -17,12 +17,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciclaChile">
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
-        <activity android:name=".reciclar_pilas_tapas"></activity>
+        <activity android:name=".reciclar_pilas_tapas" />
         <activity android:name=".reciclar_aluminio" />
         <activity android:name=".reciclar_chatarra" />
         <activity android:name=".reciclar_papeles_cartones" />
@@ -47,11 +56,7 @@
             android:name=".mapa_Santiago"
             android:label="@string/title_activity_mapa__santiago" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
