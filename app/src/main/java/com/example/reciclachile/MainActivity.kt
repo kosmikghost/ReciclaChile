@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.ActionBar
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -20,6 +21,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportActionBar?.apply {
+            setDisplayShowHomeEnabled(true)
+            // Set whether to display the activity logo rather than the
+            // activity icon. A logo is often a wider, more detailed image.
+            setDisplayUseLogoEnabled(true)
+            // Set the logo to display in the 'home' section of the action bar.
+            setLogo(R.drawable.ecochilelogo)
+        }
 
         MobileAds.initialize(this) {}
 
@@ -34,6 +44,8 @@ class MainActivity : AppCompatActivity() {
         comoReciclar()
 
         TextoHome()
+
+
     }
 
 

@@ -17,6 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciclaChile">
+
         <activity android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
@@ -55,9 +56,14 @@
         <activity
             android:name=".mapa_Santiago"
             android:label="@string/title_activity_mapa__santiago" />
-        <activity android:name=".MainActivity">
 
-        </activity>
+        <activity android:name=".MainActivity"
+            android:label=""
+            android:logo="@drawable/ecochilelogo"
+
+            />
+
+
     </application>
 
 </manifest>
