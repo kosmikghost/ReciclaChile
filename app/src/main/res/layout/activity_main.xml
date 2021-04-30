@@ -15,20 +15,36 @@
 
         //Logo
 
-        <ImageView
-            android:id="@+id/ecochile"
+        <ViewFlipper
+            android:id="@+id/vfca"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:src="@drawable/ecochile"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_height="205dp"
+            android:autoStart="true"
+            android:flipInterval="4900"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
 
-        <ImageView
-            android:id="@+id/imagen"
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/logohome"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/c2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/c3"/>
+
+        </ViewFlipper>
 
         //Texto
 

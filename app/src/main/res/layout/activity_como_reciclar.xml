@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ComoReciclarActivity"
-    android:background="@drawable/pixelbackground2">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#92FFFFFF">
+        android:background="#00FFFFFF">
 
 
         <TextView
@@ -42,15 +42,21 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:background="#DEF39D"
+            android:background="#9DC7F3"
             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#B6D7FA">
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="2dp"
             android:text="  • Gracias al reciclaje se previene el desuso de materiales potencialmente útiles."
@@ -76,30 +82,37 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="2dp"
+            android:layout_marginBottom="10dp"
             android:text="  • Se reduce el uso de energía, la contaminación del aire (a través de la incineración) y del agua."
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"/>
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Consecuencias de no reciclar"
+            android:text="* Consecuencias de no reciclar *"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:background="#DEF39D"/>
+            android:background="#FF8989"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EA9C9C">
 
         <TextView
             android:id="@+id/textView29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="2dp"
             android:text="  • Si no se recicla más hábitats se destruirán, lo que a su vez puede afectar a la vida silvestre."
@@ -125,15 +138,16 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="10dp"
             android:text="  • AUMENTO considerable de la cantidad de residuos, hasta que no haya espacio para segregarlos."
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"/>
+
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:text="Aprende a reciclar según el tipo de residuo"
             android:textColor="@color/black"
@@ -141,7 +155,9 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textSize="20sp"
-            android:background="#DEF39D"/>
+            android:background="#b8cc77"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
 
         <TextView
             android:layout_width="match_parent"
