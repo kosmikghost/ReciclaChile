@@ -4,5 +4,5 @@
         android:state_pressed="true" />
     <item android:drawable="@drawable/btnubicacion2"
         android:state_focused="true" />
-    <item android:drawable="@drawable/btnubicacion1" />
+    <item android:drawable="@drawable/btnubicacion" />
 </selector>

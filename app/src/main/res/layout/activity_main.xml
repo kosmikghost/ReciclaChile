@@ -18,13 +18,14 @@
         <ViewFlipper
             android:id="@+id/vfca"
             android:layout_width="match_parent"
-            android:layout_height="205dp"
+            android:layout_height="215dp"
             android:autoStart="true"
-            android:flipInterval="4900"
+            android:flipInterval="4400"
             android:inAnimation="@android:anim/slide_in_left"
             android:outAnimation="@android:anim/slide_out_right"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
             >
 
             <ImageView
@@ -35,14 +36,20 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleType="centerCrop"
+                android:scaleType="fitXY"
                 android:src="@drawable/c2"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleType="centerCrop"
+                android:scaleType="fitXY"
                 android:src="@drawable/c3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/c4"/>
 
         </ViewFlipper>
 
@@ -52,11 +59,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#b8cc77"
+            android:background="#74B381"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             >
 
             <TextView

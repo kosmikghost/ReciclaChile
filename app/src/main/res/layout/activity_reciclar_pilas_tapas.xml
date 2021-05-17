@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".reciclar_pilas_tapas"
-    android:background="@drawable/pixelbackground">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,23 +29,128 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#83000000"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:background="#54000000">
 
         <TextView
-            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="¿Cómo reciclar pilas?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Este residuo suele utilizar el contenedor rojo"
+            android:textColor="#BD2525"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/btnpila"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="Explicado en simples palabras"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#BD2525"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="Algunos puntos limpios tienen contenedores especiales para pilas y tapas de alimentos, es IMPORTANTE consultar con los operadores del punto limpio o gente que asista en el punto."
-            android:textColor="@color/white" />
+            android:text="• Las pilas son peligrosas para nuestro medio ambiente, ya que una sola pila puede contaminar miles de litros de agua, ya sean de reloj o las convencionales, al estar compuestas por elementos tóxicos para nosotros y los animales. Ahora te enseñaremos cómo disponer correctamente las pilas, ya que se reciben en distintos puntos limpios, puntos verdes, juntas de vecinos de distintas comunas y municipalidades."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="➔ Reciclaje:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#BD2525"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="1. Separa las pilas de la basura común en un contenedor especialmente para juntar pilas agotadas o en desuso."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="2. Busca puntos limpios/verdes en el mapa dónde reciben pilas. Generalmente reciben las juntas de vecinos y municipalidades. O también puedes contactarte con empresas que ofrecen el retiro de estos residuos."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="3. Depositalas en el contenedor correspondiente, o entrega a la empresa/persona/municipalidad/recepcionista de estos residuos."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Nota: No utilice sus manos para aplastar."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
     </LinearLayout>
 
     </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>

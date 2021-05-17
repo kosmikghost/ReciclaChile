@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#BF000000">
+        android:background="#54000000">
 
 
         <TextView
@@ -53,6 +53,14 @@
             android:textSize="18dp"
             android:textStyle="bold"/>
 
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/plastico"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +71,7 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#B3A24C"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -81,7 +89,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Para reciclar botellas de plástico, primero debes fijarte si en el exterior de la botella tiene algún símbolo cómo el que mostramos a continuación. Si tiene el número 1, correspondiente a plástico “PET”, debes depositarlo en el contenedor del punto limpio o punto verde correspondiente a los plásticos PET (Número 1). "
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -92,7 +101,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Botellas de bebida, agua y de jugo desechables."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -102,8 +112,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -115,7 +126,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -132,7 +143,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de tu envase, ya sea de botella, contenedor de detergente, etc, ves que indican que es plástico número 2 o también dice que es PEAD, PAD o HDPE, debes depositarlo en el contenedor correspondiente del punto limpio o punto verde a los  plástico número 2 y/o que digan que son PEAD, PAD o HDPE."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -143,7 +155,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Envases de shampoo, jabón, de aseo, etc."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -153,8 +166,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -166,7 +181,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -184,7 +199,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de algún producto plástico que tengas, indica que es del tipo número 3, y/o también dice que es PVC, debes depositarlo en el contenedor correspondiente a los plásticos tipo 3 o que esté escrito que corresponde a plásticos PVC."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -195,7 +211,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Tubos y cañerías, envases de detergente, etc."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -205,8 +222,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -218,7 +236,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -235,7 +253,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de algún producto plástico que tengas, indica que es del tipo número 4, y/o también dice que es LDPE o PEBD, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 4 o que esté escrito en el contenedor que corresponde a los plásticos LDPE o PEBD número 4."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -246,7 +265,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Envases de crema, shampoo, etc."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -256,8 +276,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
 
 
@@ -271,7 +292,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -288,7 +309,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de un residuo plástico que tengas, indica que es del tipo número 5, y/o también dice que es plástico tipo PP, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 5, o que esté escrito en el contenedor que corresponde a los plásticos PP número 5."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -299,7 +321,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Tapas de bebidas, vasos no desechables, tappers (contenedores de comida), etc."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -309,8 +332,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
 
 
@@ -324,7 +348,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -341,7 +365,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de un residuo plástico que tengas, indica que es del tipo número 6, y/o también dice que es plástico tipo PS, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 6, o que esté escrito en el contenedor que corresponde a los plásticos PS número 6."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -352,7 +377,8 @@
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Vasos, platos, y cubiertos desechables, envases de yogurt, envases de margarina/mantequilla, etc."
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -362,8 +388,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
 
         <TextView
@@ -376,7 +403,7 @@
             android:textStyle="bold"
             android:background="#B3A24C"
             android:paddingLeft="10dp"
-            android:textSize="15dp"/>
+            android:textSize="18dp"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -393,7 +420,8 @@
             android:layout_marginBottom="5dp"
             android:text="• Si en el contorno de un residuo plástico ves que indica que es plástico número 7 y/o también dice que es plástico tipo “otros/other”, no se pueden reciclar. Esto se debe a la composición del plástico, lo que no lo hace apto para reciclaje lamentablemente :( "
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -403,8 +431,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="@color/white"
-            android:textStyle="italic"/>
+            android:textColor="#E43C3C"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
 
 
     </LinearLayout>

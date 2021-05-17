@@ -30,8 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#00FFFFFF">
-
+        android:background="#00FFFFFF"
+        >
 
         <TextView
             android:id="@+id/textView25"
@@ -43,13 +43,19 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:background="#9DC7F3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
             />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:orientation="vertical"
-            android:background="#B6D7FA">
+            android:background="#BAD9FA"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
 
         <TextView
             android:id="@+id/textView26"
@@ -99,13 +105,18 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:background="#FF8989"/>
+            android:background="#FF8989"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#EA9C9C">
+            android:background="#FBB6B6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
 
         <TextView
             android:id="@+id/textView29"
@@ -118,7 +129,8 @@
             android:text="  • Si no se recicla más hábitats se destruirán, lo que a su vez puede afectar a la vida silvestre."
             android:textColor="@color/black"
             android:textSize="15dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            />
         <TextView
             android:id="@+id/textView30"
             android:layout_width="match_parent"
@@ -157,7 +169,8 @@
             android:textSize="20sp"
             android:background="#b8cc77"
             android:paddingTop="5dp"
-            android:paddingBottom="5dp"/>
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"/>
 
         <TextView
             android:layout_width="match_parent"

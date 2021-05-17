@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".reciclar_vidrio"
-    android:background="@drawable/pixelbackground">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,43 +28,150 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#83000000"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:background="#54000000">
 
         <TextView
-            android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text=" Para reciclar vidrio no se debe realizar segregación de estos. Sin embargo aclararemos aspectos importantes a la hora de querer reciclar este material:"
-            android:textColor="@color/white" />
+            android:gravity="center"
+            android:text="¿Cómo reciclar vidrio?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text=" •Se reciclan los envases de vidrio (frascos de vidrio) y botellas de vidrio (Cerveza, Vino, Bebidas y Jugos, etc)."
-            android:textColor="@color/white"/>
+            android:text="Desde ahora, ¡No más vidrio a la basura!"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/vidrio"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
         <TextView
-            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="Explicado en simples palabras"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#44811F"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text=" •NO SE RECICLAN ampolletas, vidrios de automóviles, espejos, entre otros."
-            android:textColor="@color/white"/>
+            android:text="• Se reciclan botellas y frascos de vidrio, algunos ejemplos son botellas de vidrio ya sean retornables o desechables, cómo las de cerveza, vino, bebidas de fantasía, jugos, aceites vegetales o de oliva, botellas de leche, entre otras.  En general estos residuos se depositan en el contenedor de color verde."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Ejemplos: Frascos de vidrio usados para mermeladas, miel, frutas, café, entre otros."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="NO SE RECICLA: Platos de comida, vasos, copas, vidrios de ventanas, o residuos similares."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="➔ Reciclaje:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#44811F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="1. Primero debes retirar las tapas y depositarlas en el contenedor adecuado dependiendo de si son de plástico o de metal. Si es corcho, lo puedes compostar o depositarlo en la basura común."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="2. Debes lavar la botella o frasco en caso de que esté sucio, quitando los restos de comida, líquidos o algún otro producto que haya en su interior."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="3. Enjuagar y secar."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="4. Depositar el residuo de vidrio en el contenedor correspondiente a vidrio en tu punto de limpio o punto verde (generalmente es de color verde)."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
 
     </LinearLayout>
 
     </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>
