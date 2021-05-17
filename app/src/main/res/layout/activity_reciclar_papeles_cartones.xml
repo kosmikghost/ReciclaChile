@@ -581,6 +581,154 @@
             android:textStyle="bold"
             android:textSize="15dp" />
 
+        //Tetrapak
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="¿Cómo reciclar el tetrapak (cartón para bebidas)?"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="#505050"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Este residuo suele utilizar el contenedor de color gris."
+                android:textColor="#505050"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="• Se consideran envases para bebida, los envases de leches, bebidas vegetales, jugos, alimentos, licores, alimentos, entre otros. En general estos residuos se depositan en el contenedor de color gris."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="➔ Reciclaje:"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="#505050"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="• Para reciclar de forma correcta estos residuos, debes considerar lo siguiente:"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="1. Primero debes retirar las bombillas (popotes)."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="2. Debes desarmar la caja abriendo las puntas, enjuagarlas para que estén lo más limpias posibles (puedes abrirlas para esto)."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="3. Dejar secar."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="4. Es opcional retirar las tapas para reciclarlas en otro tipo de contenedor. De todos modos, recomendamos siempre preguntar en tu punto limpio más cercano."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="5. Aplanar la caja."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="6. Depositarlo en el contenedor adecuado para Tetrapak (consulta en tu punto limpio a que contenedor corresponde el Tetrapak), generalmente es el contenedor de color gris."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Nota: Debes quitar las bombillas y tapas de plástico. El cartón no debe tener manchas de grasa o con algún líquido encima."
+                android:textColor="#E43C3C"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
     </LinearLayout>
 
     </LinearLayout>
