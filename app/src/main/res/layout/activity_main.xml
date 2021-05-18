@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/background">
+
+    <ScrollView
+        android:id="@+id/scrollablContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footerView">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -100,12 +107,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="85dp"
-        android:gravity="center"
+        android:layout_height="170dp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btnmapa"
@@ -114,6 +121,17 @@
             android:background="@drawable/btnubicacion_style"
             android:textSize="16dp"
             android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnContenedores"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btncontenedor_style"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
             />
 
 
@@ -145,27 +163,30 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="320dp"
-            android:layout_height="50dp"
-            android:gravity="center">
-
-
-            <com.google.android.gms.ads.AdView
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/adView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentBottom="true"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-            </com.google.android.gms.ads.AdView>
-
-        </LinearLayout>
-
     </LinearLayout>
 
+    </ScrollView>
 
+    <LinearLayout
+        android:id="@+id/footerView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_500"
+        >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
 
 </RelativeLayout>

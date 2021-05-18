@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">Eco Chile - Puntos de Reciclaje</string>
     <string name="title_activity_mapa__santiago">Santiago - Puntos de Reciclaje </string>
+
+    <string-array name="tipo_residuo">
+        <item>Selecciona Tipo:</item>
+        <item>Plastico</item>
+        <item>Carton</item>
+        <item>Papel</item>
+        <item>Bateria/Pila</item>
+        <item>Aluminio</item>
+        <item>Vidrio</item>
+        <item>Chatarra</item>
+    </string-array>
+
+    <string-array name="tipo_plastico">
+        <item>Selecciona Tipo:</item>
+        <item>Pet / 1</item>
+        <item>HDPE / 2</item>
+        <item>PVC / 3</item>
+        <item>LDPE / 4</item>
+        <item>PP / 5</item>
+        <item>PS / 6</item>
+        <item>Otros / 7</item>
+    </string-array>
+
 </resources>

@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         TextoHome()
 
+        Contenedor()
 
     }
 
@@ -64,6 +65,13 @@ class MainActivity : AppCompatActivity() {
         btnReciclar.setOnClickListener(){
             val reciclar = Intent(applicationContext, ComoReciclarActivity::class.java)
             startActivity(reciclar)
+        }
+    }
+
+    private fun Contenedor(){
+        btnContenedores.setOnClickListener(){
+            val contenedores = Intent(applicationContext, contenedores::class.java)
+            startActivity(contenedores)
         }
     }
 
