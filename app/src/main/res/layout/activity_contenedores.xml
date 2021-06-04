@@ -22,8 +22,8 @@
         android:text="Contenedores"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#659A70"
+        android:background="#9DC59D"
+        android:textColor="#465746"
         />
 
     <TextView
@@ -32,26 +32,25 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="En esta sección sabrás que contenedor le corresponde a tu residuo."
-        android:textColor="@color/white"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:background="#98CCA3"/>
+
+        android:textColor="#465746"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:orientation="vertical"
-        android:background="#98CCA3">
+        android:orientation="vertical">
 
       <TextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="left"
           android:text="Selecciona Tipo de Residuo:"
-          android:textColor="@color/black"
           android:textSize="18dp"
           android:textStyle="bold"
-          android:background="#74B381"
+          android:background="#9DC59D"
+          android:textColor="#465746"
           android:padding="5dp"/>
 
       <Spinner
@@ -61,7 +60,6 @@
           android:layout_gravity="left"
           android:layout_margin="10dp"
           android:entries="@array/tipo_residuo"
-
           />
 
       <TextView
@@ -70,10 +68,10 @@
           android:layout_height="wrap_content"
           android:layout_gravity="left"
           android:text="-"
-          android:textColor="@color/black"
           android:textSize="18dp"
           android:textStyle="bold"
-          android:background="#74B381"
+          android:background="#9DC59D"
+          android:textColor="#465746"
           android:padding="5dp"/>
 
       <Spinner
@@ -100,10 +98,10 @@
           android:gravity="center"
           android:text="Contenedor Donde Debes Reciclar"
           android:textAlignment="center"
-          android:textColor="@color/black"
           android:textSize="18dp"
           android:textStyle="bold"
-          android:background="#74B381"
+          android:background="#9DC59D"
+          android:textColor="#465746"
           android:padding="5dp"/>
 
       <ImageView

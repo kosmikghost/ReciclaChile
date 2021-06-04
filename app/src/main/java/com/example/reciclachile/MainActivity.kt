@@ -121,18 +121,18 @@ class MainActivity : AppCompatActivity() {
         var num = (0..11).random();
 
         when (num) {
-            0 -> textoAccion.setText("• No botes tu basura en las calles, busca un basurero o guarda tu basura hasta llegar a uno, comparte el hábito de cuidar nuestro entorno con otros \uD83D\uDEAE️")
-            1 -> textoAccion.setText("• ☀ Aprovecha la luz Ambiental ☀")
-            2 -> textoAccion.setText("• Utiliza ampolletas led y de bajo consumo \uD83D\uDCA1️")
-            3 -> textoAccion.setText("• Usa bicicleta, es un medio de transporte limpio libre de contaminación, así evitas contaminantes que las micros y automóviles generan \uD83D\uDEB2️")
-            4 -> textoAccion.setText("• Recuerda utilizar bolsas reutilizables cuando vayas de compras. Evita utilizar el plástico ♻️️")
-            5 -> textoAccion.setText("• CONSUMO FANTASMA, evita dejar aparatos eléctricos que no utilices enchufados, esto ahorrará consumo eléctrico \uD83D\uDD0C")
-            6 -> textoAccion.setText("• \uD83C\uDF33 Planta un Árbol \uD83C\uDF33")
-            7 -> textoAccion.setText("• Separa los residuos y enseña a reciclar ♻")
-            8 -> textoAccion.setText("• Consume frutas y verduras ecológicas, los productos ecológicos cuidan el medio ambiente \uD83C\uDF4F")
-            9 -> textoAccion.setText("• Aprende a reciclar en EcoChile y deja tu comentario sobre nuestra aplicación, mejoraremos gracias a ustedes :)")
-            10 -> textoAccion.setText("• Cierra la llave mientras te lavas los dientes \uD83D\uDEB0")
-            11 -> textoAccion.setText("• Cuidemos nuestro planeta para las futuras generaciones \uD83C\uDF0E")
+            0 -> textoAccion.setText("No botes tu basura en las calles, busca un basurero o guarda tu basura hasta llegar a uno, comparte el hábito de cuidar nuestro entorno con otros \uD83D\uDEAE️")
+            1 -> textoAccion.setText("☀ Aprovecha la luz Ambiental ☀")
+            2 -> textoAccion.setText("Utiliza ampolletas led y de bajo consumo \uD83D\uDCA1️")
+            3 -> textoAccion.setText("Usa bicicleta, es un medio de transporte limpio libre de contaminación, así evitas contaminantes que las micros y automóviles generan \uD83D\uDEB2️")
+            4 -> textoAccion.setText("Recuerda utilizar bolsas reutilizables cuando vayas de compras. Evita utilizar el plástico ♻️️")
+            5 -> textoAccion.setText("CONSUMO FANTASMA, evita dejar aparatos eléctricos que no utilices enchufados, esto ahorrará consumo eléctrico \uD83D\uDD0C")
+            6 -> textoAccion.setText("\uD83C\uDF33 Planta un Árbol \uD83C\uDF33")
+            7 -> textoAccion.setText("Separa los residuos y enseña a reciclar ♻")
+            8 -> textoAccion.setText("Consume frutas y verduras ecológicas, los productos ecológicos cuidan el medio ambiente \uD83C\uDF4F")
+            9 -> textoAccion.setText("Aprende a reciclar en EcoChile y deja tu comentario sobre nuestra aplicación, mejoraremos gracias a ustedes :)")
+            10 -> textoAccion.setText("Cierra la llave mientras te lavas los dientes \uD83D\uDEB0")
+            11 -> textoAccion.setText("Cuidemos nuestro planeta para las futuras generaciones \uD83C\uDF0E")
         }
 
 

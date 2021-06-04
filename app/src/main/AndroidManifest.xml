@@ -17,8 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciclaChile" >
-        <activity android:name=".contenedores" >
-        </activity>
+
+        <activity android:name=".contenedores" ></activity>
+
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme" >

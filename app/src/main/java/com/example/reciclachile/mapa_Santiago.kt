@@ -6060,11 +6060,7 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
                 MarkerOptions().position(point1101).title("Buenaventura esq con Avda. Central Cardenal Raúl Silva Henríquez").snippet("Vidrio")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
-        val point1102 = LatLng(-33.59355200, -70.57563200)
-        mMap.addMarker(
-                MarkerOptions().position(point1102).title("On Panta con Pto. Mayor").snippet("Vidrio, Papel, Cartón, Plástico, Metal")
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
-        )
+
         val point1102 = LatLng(-33.47481300, -70.64817300)
         mMap.addMarker(
                 MarkerOptions().position(point1102).title("San Diego 2189").snippet("Vidrio")
@@ -6139,6 +6135,12 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(
                 MarkerOptions().position(point1116).title("Luis Matte Con Coquimbo").snippet("Plástico")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+
+        val point1117 = LatLng(-33.59355200, -70.57563200)
+        mMap.addMarker(
+            MarkerOptions().position(point1117).title("On Panta con Pto. Mayor").snippet("Vidrio, Papel, Cartón, Plástico, Metal")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
 
 

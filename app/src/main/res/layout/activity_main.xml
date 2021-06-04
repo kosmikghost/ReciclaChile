@@ -32,7 +32,7 @@
             android:outAnimation="@android:anim/slide_out_right"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="25dp"
             >
 
             <ImageView
@@ -66,40 +66,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#74B381"
             android:gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🌱 Acciones para Cuidar el Planeta  🌱"
+                android:text="Acciones para cuidar nuestro planeta"
                 android:textSize="18dp"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
                 android:padding="2dp"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linea"
+                android:layout_margin="3dp"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="65dp"
             android:orientation="vertical"
-            android:background="#83000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:padding="10dp">
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/textoAccion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                android:textColor="@color/white"
-                />
+                android:text="No botes tu basura en las calles, busca un basurero o guarda tu basura hasta llegar a uno, comparte el hábito de cuidar nuestro entorno con otros"
+                android:textColor="#465746"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
         </LinearLayout>
 
@@ -112,11 +117,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center">
 
         <Button
             android:id="@+id/btnmapa"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="80dp"
             android:background="@drawable/btnubicacion_style"
             android:textSize="16dp"
@@ -125,7 +131,7 @@
 
         <Button
             android:id="@+id/btnContenedores"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_marginTop="10dp"
             android:layout_height="80dp"
             android:background="@drawable/btncontenedor_style"
