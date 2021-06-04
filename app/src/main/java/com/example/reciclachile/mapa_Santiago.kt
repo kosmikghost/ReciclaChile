@@ -6061,9 +6061,15 @@ class mapa_Santiago : AppCompatActivity(), OnMapReadyCallback {
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
 
-        val point1102 = LatLng(-33.47481300, -70.64817300)
+        val point1102 = LatLng(-33.59355200, -70.57563200)
         mMap.addMarker(
-                MarkerOptions().position(point1102).title("San Diego 2189").snippet("Vidrio")
+                MarkerOptions().position(point1102).title("On Panta con Pto. Mayor").snippet("Vidrio, Papel, Cartón, Plástico, Metal")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        val point11022 = LatLng(-33.47481300, -70.64817300)
+
+        mMap.addMarker(
+                MarkerOptions().position(point11022).title("San Diego 2189").snippet("Vidrio")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
         )
         val point1103 = LatLng(-33.47382590, -70.59784350)
