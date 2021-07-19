@@ -28,8 +28,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="#46000000">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                 android:text="¿Cómo reciclar aluminio?"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:layout_marginTop="10dp"
                 />
 
@@ -48,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="Desde ahora, ¡No más aluminio a la basura!"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:gravity="center"
                 android:textSize="18dp"
                 android:textStyle="bold"/>
@@ -83,9 +82,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="• En esta sección se reciclan las latas de aluminio ya sean de, bebidas, cervezas, jugos, energéticas, bandejas de aluminio entre otras. También se recicla lata, ya sean tarros de conserva, chatarra, tapas metálicas de tarros y bebidas, tarros de café y conservas, fierro, cobre, metales y aluminio. En general estos residuos se depositan en el contenedor de color gris."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -107,9 +107,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="• Para reciclar de forma correcta estos residuos, debes considerar lo siguiente:"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -119,9 +120,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="1. Lavar (si está sucio), enjuagar y dejar que se seque."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -131,9 +133,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="2. Debes aplastar la lata o bandeja, ya que así se reduce considerablemente su tamaño, y ayuda a un mejor reciclaje."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -143,9 +146,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="3. Depositarlo en el contenedor adecuado para el aluminio, generalmente es el contenedor de color gris."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"

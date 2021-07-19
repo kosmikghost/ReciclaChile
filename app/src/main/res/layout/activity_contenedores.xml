@@ -34,7 +34,7 @@
         android:text="En esta sección sabrás que contenedor le corresponde a tu residuo."
         android:textSize="16dp"
         android:textStyle="bold"
-
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#465746"/>
 
     <LinearLayout

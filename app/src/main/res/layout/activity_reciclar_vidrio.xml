@@ -27,8 +27,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#54000000">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -37,7 +36,7 @@
             android:text="¿Cómo reciclar vidrio?"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:layout_marginTop="10dp"
             />
 
@@ -47,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:text="Desde ahora, ¡No más vidrio a la basura!"
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:gravity="center"
             android:textSize="18dp"
             android:textStyle="bold"/>
@@ -82,9 +81,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Se reciclan botellas y frascos de vidrio, algunos ejemplos son botellas de vidrio ya sean retornables o desechables, cómo las de cerveza, vino, bebidas de fantasía, jugos, aceites vegetales o de oliva, botellas de leche, entre otras.  En general estos residuos se depositan en el contenedor de color verde."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -94,9 +94,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Ejemplos: Frascos de vidrio usados para mermeladas, miel, frutas, café, entre otros."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -130,9 +131,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="1. Primero debes retirar las tapas y depositarlas en el contenedor adecuado dependiendo de si son de plástico o de metal. Si es corcho, lo puedes compostar o depositarlo en la basura común."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -142,9 +144,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="2. Debes lavar la botella o frasco en caso de que esté sucio, quitando los restos de comida, líquidos o algún otro producto que haya en su interior."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -154,9 +157,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="3. Enjuagar y secar."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -166,9 +170,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="4. Depositar el residuo de vidrio en el contenedor correspondiente a vidrio en tu punto de limpio o punto verde (generalmente es de color verde)."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
     </LinearLayout>
 

@@ -28,8 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#54000000">
+        android:orientation="vertical">
 
         <TextView
                 android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                 android:text="¿Cómo reciclar papel?"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+            android:textColor="#465746"
                 android:layout_marginTop="10dp"
                 />
 
@@ -48,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="Desde ahora, ¡No más papeles a la basura!"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:gravity="center"
                 android:textSize="18dp"
                 android:textStyle="bold"/>
@@ -83,9 +82,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="• Debes depositar el papel que vas a reciclar en el contenedor de tu punto limpio/verde que esté asignado al papel (generalmente se utiliza el contenedor de color azul). Primero que nada para comenzar a reciclar papel, debes considerar que los siguientes papeles son reciclables:"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -107,9 +107,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="Se recicla el papel blanco de la impresora (papel impreso), facturas, papel de cuaderno, todos estos papeles sí se pueden reciclar. El papel arrugado o alterado sí se recicla, pero intenta entregarlo liso. El papel en trizas no se puede reciclar. Sin embargo, el papel en trizas es excelente para el compost."
-                android:textColor="@color/white"
+            android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -119,9 +120,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="Para el papel de cuaderno, debes quitar el anillado, tapas de cartón o plástico y todo lo que no sea papel."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -158,9 +160,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="El papel color marrón es reciclable. Intenta reutilizarlo antes de llevarlo al contenedor de papel para reciclarlo."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -209,9 +212,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Este papel de los típicos diarios, es totalmente reciclable."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -248,9 +252,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Las revistas son reciclables. Para reciclarlas debes quitarle los corchetes/grapas."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -287,9 +292,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Los sobres de papel son reciclables. Para reciclarlo debe estar lo más limpio posible, y debes quitarle lo que esté agregado al papel, cómo las ventanillas de plástico, ya sea plástico transparente, o stickers."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -328,9 +334,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Algunos papeles no se pueden reciclar debido al uso que se les da cotidianamente y su composición."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -340,9 +347,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Los siguientes papeles NO son reciclables:"
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -352,9 +360,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Papel higiénico y sanitario."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -364,9 +373,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Boletas de supermercado, metro, entre otras (papel brillante)."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -376,9 +386,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Papeles manchados con aceites, grasas, o con algún líquido encima."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -388,9 +399,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Papel encerado o parafinado."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -400,9 +412,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Vasos de papel (que venden en cafeterías)."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -412,9 +425,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Papel en trizas por trituradoras de papel."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         //¿Cómo reciclar cartón?
 
@@ -437,10 +451,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:text="Desde ahora, ¡No más cartón a la basura!"
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:gravity="center"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -450,9 +465,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="• Debes depositar el papel que vas a reciclar en el contenedor de tu punto limpio/verde que esté asignado al cartón (generalmente se utiliza el contenedor de color azul). Algunos ejemplos de cartones reciclables son: Cartón liso cómo cajas de cereales, remedios/medicamentos, cilindros de papel higiénico (sin nada de papel), cartulinas, cajas de pizza limpias (puedes reciclar la parte limpia, sin manchas de grasa), bobinas de cartón, entre otros."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -472,7 +488,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:paddingLeft="10dp"
-            android:text="➔ Cartón corrugado:"
+            android:text="➔ Cartón Corrugado:"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#1F4381"
@@ -486,9 +502,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Para reciclar el cartón corrugado, debe estar sin manchas de aceites o grasas, ni tampoco debe estar con cinta adhesiva, corchetes, entre otros. Antes de depositarlo en el contenedor correspondiente a cartón debes reducir su volumen (espacio ocupado por el cartón), aplanándolo para que sea lo más pequeño posible, quitando las cinta adhesivas y/o corchetes."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -525,9 +542,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Algunos ejemplos son las cajas de cereales, de cervezas, vino, entre otras. Antes de depositarlo en el contenedor correspondiente a cartón debes reducir su volumen (espacio ocupado por el cartón), aplanándolo para que sea lo más pequeño posible, quitando las cinta adhesivas y/o corchetes."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -564,9 +582,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:text="Se reciclan también, cartones tipo cartulina, cartón piedra. Antes de depositarlo en el contenedor correspondiente a cartón debes reducir su volumen (espacio ocupado por el cartón), aplanándolo para que sea lo más pequeño posible, quitando las cinta adhesivas y/o corchetes."
-            android:textColor="@color/white"
+            android:textColor="#465746"
             android:textStyle="bold"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
 
         <TextView
@@ -607,7 +626,8 @@
                 android:text="Este residuo suele utilizar el contenedor de color gris."
                 android:textColor="#505050"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -617,9 +637,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="• Se consideran envases para bebida, los envases de leches, bebidas vegetales, jugos, alimentos, licores, alimentos, entre otros. En general estos residuos se depositan en el contenedor de color gris."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -641,9 +662,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="• Para reciclar de forma correcta estos residuos, debes considerar lo siguiente:"
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -653,9 +675,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="1. Primero debes retirar las bombillas (popotes)."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -665,9 +688,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="2. Debes desarmar la caja abriendo las puntas, enjuagarlas para que estén lo más limpias posibles (puedes abrirlas para esto)."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -677,9 +701,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="3. Dejar secar."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -689,9 +714,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="4. Es opcional retirar las tapas para reciclarlas en otro tipo de contenedor. De todos modos, recomendamos siempre preguntar en tu punto limpio más cercano."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -701,9 +727,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="5. Aplanar la caja."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -713,9 +740,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="6. Depositarlo en el contenedor adecuado para Tetrapak (consulta en tu punto limpio a que contenedor corresponde el Tetrapak), generalmente es el contenedor de color gris."
-                android:textColor="@color/white"
+                android:textColor="#465746"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
 
             <TextView
                 android:layout_width="match_parent"
