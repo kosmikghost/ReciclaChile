@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="• piratedog@gmail.com"
+                android:text="• piratedogcl@gmail.com"
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:layout_gravity="center"
@@ -90,7 +90,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contacto Eco Chile"
+            android:text="Contacto EcoChile Recicla"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20dp"
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="• ecochilerecicla@gmail.com"
+            android:text="ecochilerecicla@gmail.com"
             android:textColor="@color/black"
             android:textSize="15dp"
             android:layout_gravity="center"
@@ -122,10 +122,12 @@
                     />
 
                 <Button
+                    android:id="@+id/btninsta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#Insta_Gram"
-                    android:background="#00FFFFFF"
+                    android:text="#ecochilerecicla"
+                    android:background="#00888888"
+                    android:padding="5dp"
                     android:layout_marginLeft="5dp"
                     android:textColor="#0023A1"
                     android:textStyle="bold"/>

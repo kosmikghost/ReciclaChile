@@ -1,5 +1,6 @@
 package com.example.reciclachile
 
+import android.content.Intent
 import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,16 +28,13 @@ class contenedores : AppCompatActivity() {
         }
 
         TipoMaterial()
-        TipoPlastico()
-
 
     }
 
     private fun TipoMaterial(){
 
         val spinner: Spinner = findViewById(R.id.spinner)
-        val spinner2: Spinner = findViewById(R.id.spinner2)
-        spinner2.setEnabled(false)
+
 
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
 
@@ -56,57 +54,92 @@ class contenedores : AppCompatActivity() {
                     "Carton" -> photo.setImageResource(R.drawable.btncartones)
                     "Papel" -> photo.setImageResource(R.drawable.btncartones)
                     "Bateria/Pila" -> photo.setImageResource(R.drawable.btnpila)
-                    "Aluminio" -> photo.setImageResource(R.drawable.btnpila)
-                    "Vidrio" -> photo.setImageResource(R.drawable.btnpila)
-                    "Chatarra" -> photo.setImageResource(R.drawable.btnpila)
+                    "Aluminio" -> photo.setImageResource(R.drawable.btnaluminio)
+                    "Vidrio" -> photo.setImageResource(R.drawable.btnvidrio)
+                    "Chatarra" -> photo.setImageResource(R.drawable.btnchatarra)
                 }
-
-                if (parent?.getItemAtPosition(position).toString()=="Plastico"){
-                    textocontenedor.setText("Selecciona Tipo de Plastico:")
-                    spinner2.isEnabled = true
-                }
-
-                if (parent?.getItemAtPosition(position).toString()!="Plastico"){
-                    textocontenedor.setText("-")
-                    spinner2.setSelection(0)
-                    spinner2.isEnabled = false
-                }
-
-            }
-
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                TODO("Not yet implemented")
-            }
-
-        }
-
-    }
-
-    private fun TipoPlastico(){
-
-        val spinner2: Spinner = findViewById(R.id.spinner2)
-        spinner2.setEnabled(false)
-
-        spinner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-
-            override fun onItemSelected(
-                parent: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-
-                var item = parent?.getItemAtPosition(position).toString();
 
                 when (item) {
-                    "Selecciona Tipo:" -> photo.setImageResource(R.drawable.contenedores)
-                    "Pet / 1" -> Toast.makeText(applicationContext,"Pet / 1", Toast.LENGTH_LONG).show()
-                    "HDPE / 2" -> Toast.makeText(applicationContext,"HDPE / 2", Toast.LENGTH_LONG).show()
-                    "PVC / 3" -> Toast.makeText(applicationContext,"PVC / 3", Toast.LENGTH_LONG).show()
-                    "LDPE / 4" -> Toast.makeText(applicationContext,"LDPE / 4", Toast.LENGTH_LONG).show()
-                    "PP / 5" -> Toast.makeText(applicationContext,"PP / 5", Toast.LENGTH_LONG).show()
-                    "PS / 6" -> Toast.makeText(applicationContext,"PS / 6", Toast.LENGTH_LONG).show()
-                    "Otros / 7" -> Toast.makeText(applicationContext,"Otros / 7", Toast.LENGTH_LONG).show()
+                    "Selecciona Tipo:" -> con.setImageResource(R.drawable.logohome)
+                    "Plastico" -> con.setImageResource(R.drawable.plasticof)
+                    "Carton" -> con.setImageResource(R.drawable.papelcartonf)
+                    "Papel" -> con.setImageResource(R.drawable.papelcartonf)
+                    "Bateria/Pila" -> con.setImageResource(R.drawable.pilaf)
+                    "Aluminio" -> con.setImageResource(R.drawable.aluminiof)
+                    "Vidrio" -> con.setImageResource(R.drawable.vidriof)
+                    "Chatarra" -> con.setImageResource(R.drawable.chatarraf)
+                }
+
+                when (item) {
+                    "Selecciona Tipo:" -> textocolor.setText("* Color de Residuo *")
+                    "Plastico" -> textocolor.setText("Generalmente corresponde al color Amarillo")
+                    "Carton" -> textocolor.setText("Generalmente corresponde al color Azul")
+                    "Papel" -> textocolor.setText("Generalmente corresponde al color Azul")
+                    "Bateria/Pila" -> textocolor.setText("Generalmente corresponde al color Rojo")
+                    "Aluminio" -> textocolor.setText("Generalmente corresponde al color Gris")
+                    "Vidrio" -> textocolor.setText("Generalmente corresponde al color Verde")
+                    "Chatarra" -> textocolor.setText("Generalmente corresponde al color Gris")
+                }
+
+                when (item) {
+                    "Selecciona Tipo:" -> btninfo.isEnabled = false
+
+                    "Plastico" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventana = Intent(applicationContext, reciclar_plastico::class.java)
+                            startActivity(ventana)
+                        }
+
+                    }
+
+                    "Carton" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventanaMapa = Intent(applicationContext, reciclar_papeles_cartones::class.java)
+                            startActivity(ventanaMapa)
+                        }
+                    }
+
+                    "Papel" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                        val ventanaMapa = Intent(applicationContext, reciclar_papeles_cartones::class.java)
+                        startActivity(ventanaMapa)
+                        }
+                    }
+
+                    "Bateria/Pila" ->{
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventanaMapa = Intent(applicationContext, reciclar_pilas_tapas::class.java)
+                            startActivity(ventanaMapa)
+                        }
+                    }
+
+                    "Aluminio" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventanaMapa = Intent(applicationContext, reciclar_aluminio::class.java)
+                            startActivity(ventanaMapa)
+                        }
+                    }
+
+                    "Vidrio" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventanaMapa = Intent(applicationContext, reciclar_vidrio::class.java)
+                            startActivity(ventanaMapa)
+                        }
+                    }
+
+                    "Chatarra" -> {
+                        btninfo.isEnabled = true
+                        btninfo.setOnClickListener(){
+                            val ventanaMapa = Intent(applicationContext, reciclar_chatarra::class.java)
+                            startActivity(ventanaMapa)
+                        }
+                    }
                 }
 
             }
@@ -118,5 +151,7 @@ class contenedores : AppCompatActivity() {
         }
 
     }
+
+
 
 }

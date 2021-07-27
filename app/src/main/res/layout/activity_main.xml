@@ -27,12 +27,12 @@
             android:layout_width="match_parent"
             android:layout_height="215dp"
             android:autoStart="true"
-            android:flipInterval="4400"
+            android:flipInterval="6500"
             android:inAnimation="@android:anim/slide_in_left"
             android:outAnimation="@android:anim/slide_out_right"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="10dp"
             >
 
             <ImageView

@@ -11,6 +11,7 @@ import android.widget.Toast
 import android.widget.ViewFlipper
 import androidx.appcompat.app.ActionBar
 import androidx.core.app.ActivityCompat
+import androidx.core.graphics.toColor
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
             // activity icon. A logo is often a wider, more detailed image.
             setDisplayUseLogoEnabled(true)
             // Set the logo to display in the 'home' section of the action bar.
+            //setTitle("")
+
             setLogo(R.drawable.ecochilelogo)
         }
 
@@ -107,13 +110,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun Help(){
-        Toast.makeText(applicationContext,"Ayuda", Toast.LENGTH_SHORT).show()
         val helpact = Intent(applicationContext, help_Activity::class.java)
         startActivity(helpact)
     }
 
     private fun Salir(){
-        Toast.makeText(applicationContext,"Salir", Toast.LENGTH_SHORT).show()
+        finish()
     }
 
     private fun TextoHome(){

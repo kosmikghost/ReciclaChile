@@ -24,11 +24,19 @@ class Acercade_Activity : AppCompatActivity() {
 
         btnpaypal()
 
+        btninsta()
     }
-    public fun btnpaypal(){
+    private fun btnpaypal(){
         paypalbutton.setOnClickListener(){
             val ventanaMapa = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.paypal.com/donate?hosted_button_id=KE8Z2MKAVUBD4"))
             startActivity(ventanaMapa)
+        }
+    }
+
+    private fun btninsta(){
+        btninsta.setOnClickListener(){
+            val ventana = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/ecochilerecicla/"))
+            startActivity(ventana)
         }
     }
 

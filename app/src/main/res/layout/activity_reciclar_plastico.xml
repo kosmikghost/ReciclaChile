@@ -92,6 +92,7 @@
             android:textSize="15dp"
             android:fontFamily="sans-serif-condensed"/>
 
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -174,62 +175,7 @@
             android:textSize="15dp"
             />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos tipo PVC número 3:"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:background="#B3A24C"
-            android:paddingLeft="10dp"
-            android:textSize="18dp"/>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/pvc3"/>
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="• Si en el contorno de algún producto plástico que tengas, indica que es del tipo número 3, y/o también dice que es PVC, debes depositarlo en el contenedor correspondiente a los plásticos tipo 3 o que esté escrito que corresponde a plásticos PVC."
-            android:textColor="#465746"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="Ejemplos: Tubos y cañerías, envases de detergente, etc."
-            android:textColor="#465746"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="#E43C3C"
-            android:textStyle="italic"
-            android:textSize="15dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -327,7 +273,20 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="Ejemplos: Tapas de bebidas, vasos no desechables, tappers (contenedores de comida), etc."
+            android:text="• * No se reciclan envases PP Flexible número 5. Ejemplo, Envases de Snacks, alimentos y/o hayan contenido comida. *"
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="• Se deben reciclar plásticos *RIGIDOS*. Ejemplo: Tapas de bebidas, vasos no desechables, tappers (contenedores de comida), etc."
             android:textColor="#465746"
             android:textStyle="bold"
             android:textSize="15dp"
@@ -344,108 +303,6 @@
             android:textColor="#E43C3C"
             android:textStyle="italic"
             android:textSize="15dp" />
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos tipo PS número 6:"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:background="#B3A24C"
-            android:paddingLeft="10dp"
-            android:textSize="18dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/ps6"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="• Si en el contorno de un residuo plástico que tengas, indica que es del tipo número 6, y/o también dice que es plástico tipo PS, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 6, o que esté escrito en el contenedor que corresponde a los plásticos PS número 6."
-            android:textColor="#465746"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="Ejemplos: Vasos, platos, y cubiertos desechables, envases de yogurt, envases de margarina/mantequilla, etc."
-            android:textColor="#465746"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="#E43C3C"
-            android:textStyle="italic"
-            android:textSize="15dp"/>
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos número 7 (otros):"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:background="#B3A24C"
-            android:paddingLeft="10dp"
-            android:textSize="18dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/otros7"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="• Si en el contorno de un residuo plástico ves que indica que es plástico número 7 y/o también dice que es plástico tipo “otros/other”, no se pueden reciclar. Esto se debe a la composición del plástico, lo que no lo hace apto para reciclaje lamentablemente :( "
-            android:textColor="#465746"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="Nota: No olvides verificar el número, lavar el envase y llevarlo limpio."
-            android:textColor="#E43C3C"
-            android:textStyle="italic"
-            android:textSize="15dp"/>
 
 
     </LinearLayout>
