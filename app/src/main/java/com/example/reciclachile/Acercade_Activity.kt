@@ -1,4 +1,4 @@
-package com.example.reciclachile
+package com.piratedog.reciclachile
 
 import android.content.Intent
 import android.net.Uri

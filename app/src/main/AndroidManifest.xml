@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.reciclachile" >
+    package="com.piratedog.reciclachile" >
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -18,7 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciclaChile" >
 
-        <activity android:name=".contenedores" ></activity>
+        <activity android:name=".contenedores"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name=".SplashScreenActivity"
@@ -32,7 +33,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-2522266095841972~9196481247" />
 
         <activity android:name=".reciclar_pilas_tapas" />
         <activity android:name=".reciclar_aluminio" />
@@ -40,9 +41,12 @@
         <activity android:name=".reciclar_papeles_cartones" />
         <activity android:name=".reciclar_vidrio" />
         <activity android:name=".reciclar_plastico" />
-        <activity android:name=".ComoReciclarActivity" />
-        <activity android:name=".help_Activity" />
-        <activity android:name=".Acercade_Activity" />
+        <activity android:name=".ComoReciclarActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".help_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Acercade_Activity"
+            android:screenOrientation="portrait"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -57,9 +61,11 @@
 
         <activity
             android:name=".mapa_Santiago"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_mapa__santiago" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:label=""
             android:logo="@drawable/ecochilelogo" />
     </application>

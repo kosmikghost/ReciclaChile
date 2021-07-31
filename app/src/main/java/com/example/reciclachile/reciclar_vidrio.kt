@@ -1,4 +1,4 @@
-package com.example.reciclachile
+package com.piratedog.reciclachile
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

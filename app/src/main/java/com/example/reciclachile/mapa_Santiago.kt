@@ -1,4 +1,4 @@
-package com.example.reciclachile
+package com.piratedog.reciclachile
 
 import android.annotation.SuppressLint
 import android.app.Activity
