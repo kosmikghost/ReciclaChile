@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="10px"
-            android:text="ALUMINIO"
+            android:text="Aluminio y Hojalata"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="¿Cómo reciclar aluminio?"
+                android:text="¿Cómo reciclar Aluminio Y Hojalata?"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="#465746"
@@ -52,6 +52,17 @@
                 android:textSize="18dp"
                 android:textStyle="bold"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Este Residuo suele utilizar el Contenedor de color Gris para Aluminio y Negro para Hojalata."
+                android:textColor="#505050"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -66,7 +77,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
                 android:paddingLeft="10dp"
-                android:text="Explicado en simples palabras"
+                android:text="Explicado en Simples Palabras"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:background="#505050"
@@ -81,7 +92,20 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="• En esta sección se reciclan las latas de aluminio ya sean de, bebidas, cervezas, jugos, energéticas, bandejas de aluminio entre otras. También se recicla lata, ya sean tarros de conserva, chatarra, tapas metálicas de tarros y bebidas, tarros de café y conservas, fierro, cobre, metales y aluminio. En general estos residuos se depositan en el contenedor de color gris."
+                android:text="• En esta sección se reciclan las latas de aluminio ya sean de, bebidas, cervezas, jugos, energéticas, bandejas de aluminio, tarros de café, tarros de crema, alimentos en conserva, entre otros. En general el residuo de Aluminio se deposita en el contenedor de color gris y el de Hojalata en color negro, o un contenedor que se llame “otros metales”."
+                android:textColor="#465746"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="• De todas formas se recomienda siempre consultar en su punto limpio sobre que contenedor utilizar para su residuo."
                 android:textColor="#465746"
                 android:textStyle="bold"
                 android:textSize="15dp"
@@ -119,7 +143,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="1. Lavar (si está sucio), enjuagar y dejar que se seque."
+                android:text="1. Lavar (si está sucio), enjuagar y dejar que se sequen."
                 android:textColor="#465746"
                 android:textStyle="bold"
                 android:textSize="15dp"
@@ -132,7 +156,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="2. Debes aplastar la lata o bandeja, ya que así se reduce considerablemente su tamaño, y ayuda a un mejor reciclaje."
+                android:text="2. Debes aplastar la lata, tarro o bandeja, ya que así se reduce considerablemente su tamaño, y ayuda a un mejor reciclaje."
                 android:textColor="#465746"
                 android:textStyle="bold"
                 android:textSize="15dp"
@@ -145,7 +169,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="3. Depositarlo en el contenedor adecuado para el aluminio, generalmente es el contenedor de color gris."
+                android:text="3. Depositarlo en el contenedor adecuado para el aluminio y hojalata, generalmente es el contenedor de color gris."
                 android:textColor="#465746"
                 android:textStyle="bold"
                 android:textSize="15dp"
@@ -158,10 +182,11 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="Nota: No utilice sus manos para aplastar."
+                android:text="Nota: No utilice sus manos para aplastarlas."
                 android:textColor="#E43C3C"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15dp"
+                android:gravity="center"/>
 
 
 

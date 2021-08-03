@@ -4,13 +4,12 @@
 
     <string-array name="tipo_residuo">
         <item>Selecciona Tipo:</item>
-        <item>Plastico</item>
-        <item>Carton</item>
-        <item>Papel</item>
-        <item>Bateria/Pila</item>
-        <item>Aluminio</item>
-        <item>Vidrio</item>
-        <item>Chatarra</item>
+        <item>• Plastico</item>
+        <item>• Carton</item>
+        <item>• Papel</item>
+        <item>• Bateria/Pila</item>
+        <item>• Aluminio/Hojalata</item>
+        <item>• Vidrio</item>
     </string-array>
 
     <string-array name="tipo_plastico">

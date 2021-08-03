@@ -32,7 +32,7 @@
             android:outAnimation="@android:anim/slide_out_right"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="18dp"
             >
 
             <ImageView
@@ -51,6 +51,12 @@
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:src="@drawable/c3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/c5"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -122,7 +128,7 @@
 
         <Button
             android:id="@+id/btnmapa"
-            android:layout_width="340dp"
+            android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@drawable/btnubicacion_style"
             android:textSize="16dp"
@@ -131,7 +137,7 @@
 
         <Button
             android:id="@+id/btnContenedores"
-            android:layout_width="340dp"
+            android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:layout_height="80dp"
             android:background="@drawable/btncontenedor_style"
@@ -176,11 +182,11 @@
     <LinearLayout
         android:id="@+id/footerView"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="65dp"
         android:gravity="center"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/purple_500"
+        android:background="#2F000000"
         >
 
         <com.google.android.gms.ads.AdView
@@ -189,8 +195,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            ads:adSize="SMART_BANNER"
-            ads:adUnitId="ca-app-pub-2522266095841972/2766163631">
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2522266095841972/2766163631"
+            >
         </com.google.android.gms.ads.AdView>
 
     </LinearLayout>

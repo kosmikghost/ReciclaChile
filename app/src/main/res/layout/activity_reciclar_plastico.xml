@@ -66,7 +66,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:paddingLeft="10dp"
-            android:text="➔ Botellas plásticas PET o PETE número 1:"
+            android:text="➔ Botellas Plásticas PET o PETE Número 1:"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#B3A24C"
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos PEAD, PAD o HDPE (es el mismo plástico, solo cambian las siglas) número 2:"
+            android:text="➔ Plásticos PEAD, PAD o HDPE (es el mismo plástico, solo cambian las siglas) Número 2:"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#B3A24C"
@@ -175,14 +175,43 @@
             android:textSize="15dp"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="➔ Plásticos tipo PVC Número 3:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#B3A24C"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/pvc3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Nota: AÚN NO SE RECICLA DE FORMA MASIVA EN CHILE/DIFÍCIL DE RECICLAR."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos tipo LDPE o PEBD número 4:"
+            android:text="➔ Plásticos tipo LDPE o PEBD Número 4:"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#B3A24C"
@@ -202,7 +231,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="• Si en el contorno de algún producto plástico que tengas, indica que es del tipo número 4, y/o también dice que es LDPE o PEBD, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 4 o que esté escrito en el contenedor que corresponde a los plásticos LDPE o PEBD número 4."
+            android:text="• Si en el contorno de algún producto plástico que tengas, indica que es del tipo número 4, y/o también dice que es LDPE o PEBD, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 4 o que esté escrito en el contenedor que corresponde a los plásticos LDPE o PEBD número 4. Suelen ser bolsas de plástico que se pueden estirar."
             android:textColor="#465746"
             android:textStyle="bold"
             android:textSize="15dp"
@@ -215,7 +244,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="Ejemplos: Envases de crema, shampoo, etc."
+            android:text="Ejemplos: Bolsas de plástico tipo camiseta, bolsas de papel higiénico, bolsas de alimentos congelados, bolsas de packs de cervezas, entre otros."
             android:textColor="#465746"
             android:textStyle="bold"
             android:textSize="15dp"
@@ -240,7 +269,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:text="➔ Plásticos tipo PP número 5:"
+            android:text="➔ Plásticos tipo PP Número 5: Existe el Plástico PP 5 Rígido y PP 5 Flexible."
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#B3A24C"
@@ -260,7 +289,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="• Si en el contorno de un residuo plástico que tengas, indica que es del tipo número 5, y/o también dice que es plástico tipo PP, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 5, o que esté escrito en el contenedor que corresponde a los plásticos PP número 5."
+            android:text=" Plástico PP 5 Rígido:"
             android:textColor="#465746"
             android:textStyle="bold"
             android:textSize="15dp"
@@ -273,20 +302,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:text="• * No se reciclan envases PP Flexible número 5. Ejemplo, Envases de Snacks, alimentos y/o hayan contenido comida. *"
-            android:textColor="#E43C3C"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:fontFamily="sans-serif-condensed"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="• Se deben reciclar plásticos *RIGIDOS*. Ejemplo: Tapas de bebidas, vasos no desechables, tappers (contenedores de comida), etc."
+            android:text="• El PP 5 rígido corresponde a plásticos cómo las tapas de bebidas, maceteros, entre otros. Si en el contorno de un residuo plástico que tengas, indica que es del tipo número 5, y/o también dice que es plástico tipo PP, debes depositarlo en el contenedor del punto limpio o verde de los plásticos tipo 5, o que esté escrito en el contenedor que corresponde a los plásticos PP número 5."
             android:textColor="#465746"
             android:textStyle="bold"
             android:textSize="15dp"
@@ -304,6 +320,145 @@
             android:textStyle="italic"
             android:textSize="15dp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="* IMPORTANTE: No se reciclan envoltorios para dulces, snack, ramitas, papas fritas, galletas ni envoltorios de alimentos como arroz, fideos, pande molde, salsas de tomates, mayonesa y otras salsas en general *"
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text=" Plástico PP 5 Flexible:"
+            android:textColor="#465746"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text=" AÚN NO SE RECICLA DE FORMA MASIVA EN CHILE/DIFÍCIL DE RECICLAR."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="• Por otro lado, el plástico PP 5 Flexible corresponde a plásticos cómo las bolsas de snacks, mallas de frutas o verduras, bolsas de alimentos perecibles, entre otros. Una característica de este tipo de plástico es que al compactarse suena."
+            android:textColor="#465746"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="• Este plástico flexible lo reciben en muy pocos puntos limpios, por lo que la mejor alternativa es colocarlos en una “Eco Botella”, “Eco Ladrillo” o “Botella de amor”."
+            android:textColor="#465746"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="➔ Plásticos tipo PS Número 6:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#B3A24C"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text=" AÚN NO SE RECICLA DE FORMA MASIVA EN CHILE/DIFÍCIL DE RECICLAR."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ps6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="➔ Plásticos Número 7 (otros):"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#B3A24C"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text=" AÚN NO SE RECICLA DE FORMA MASIVA EN CHILE/DIFÍCIL DE RECICLAR."
+            android:textColor="#E43C3C"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/otros7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="• Si en el contorno de un residuo plástico ves que indica que es plástico número 7 y/o también dice que es plástico tipo “otros/other”, no se pueden reciclar. Esto se debe a la composición del plástico, lo que no lo hace apto para reciclaje lamentablemente :(."
+            android:textColor="#465746"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-condensed"/>
 
     </LinearLayout>
 

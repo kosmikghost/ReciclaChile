@@ -50,41 +50,48 @@ class contenedores : AppCompatActivity() {
 
                 when (item) {
                     "Selecciona Tipo:" -> photo.setImageResource(R.drawable.contenedores)
-                    "Plastico" -> photo.setImageResource(R.drawable.btnplastico)
-                    "Carton" -> photo.setImageResource(R.drawable.btncartones)
-                    "Papel" -> photo.setImageResource(R.drawable.btncartones)
-                    "Bateria/Pila" -> photo.setImageResource(R.drawable.btnpila)
-                    "Aluminio" -> photo.setImageResource(R.drawable.btnaluminio)
-                    "Vidrio" -> photo.setImageResource(R.drawable.btnvidrio)
-                    "Chatarra" -> photo.setImageResource(R.drawable.btnchatarra)
+                    "• Plastico" -> photo.setImageResource(R.drawable.btnplastico)
+                    "• Carton" -> photo.setImageResource(R.drawable.btncartones)
+                    "• Papel" -> photo.setImageResource(R.drawable.btncartones)
+                    "• Bateria/Pila" -> photo.setImageResource(R.drawable.btnpila)
+                    "• Aluminio/Hojalata" -> photo.setImageResource(R.drawable.btnaluminio)
+                    "• Vidrio" -> photo.setImageResource(R.drawable.btnvidrio)
                 }
 
                 when (item) {
                     "Selecciona Tipo:" -> con.setImageResource(R.drawable.logohome)
-                    "Plastico" -> con.setImageResource(R.drawable.plasticof)
-                    "Carton" -> con.setImageResource(R.drawable.papelcartonf)
-                    "Papel" -> con.setImageResource(R.drawable.papelcartonf)
-                    "Bateria/Pila" -> con.setImageResource(R.drawable.pilaf)
-                    "Aluminio" -> con.setImageResource(R.drawable.aluminiof)
-                    "Vidrio" -> con.setImageResource(R.drawable.vidriof)
-                    "Chatarra" -> con.setImageResource(R.drawable.chatarraf)
+                    "• Plastico" -> con.setImageResource(R.drawable.plasticof)
+                    "• Carton" -> con.setImageResource(R.drawable.papelcartonf)
+                    "• Papel" -> con.setImageResource(R.drawable.papelcartonf)
+                    "• Bateria/Pila" -> con.setImageResource(R.drawable.pilaf)
+                    "• Aluminio/Hojalata" -> con.setImageResource(R.drawable.aluminiof)
+                    "• Vidrio" -> con.setImageResource(R.drawable.vidriof)
                 }
 
                 when (item) {
-                    "Selecciona Tipo:" -> textocolor.setText("* Color de Residuo *")
-                    "Plastico" -> textocolor.setText("Generalmente corresponde al color Amarillo")
-                    "Carton" -> textocolor.setText("Generalmente corresponde al color Azul")
-                    "Papel" -> textocolor.setText("Generalmente corresponde al color Azul")
-                    "Bateria/Pila" -> textocolor.setText("Generalmente corresponde al color Rojo")
-                    "Aluminio" -> textocolor.setText("Generalmente corresponde al color Gris")
-                    "Vidrio" -> textocolor.setText("Generalmente corresponde al color Verde")
-                    "Chatarra" -> textocolor.setText("Generalmente corresponde al color Gris")
+                    "Selecciona Tipo:" -> textocolor.setText("* Selecciona un Tipo de Residuo :) *")
+                    "• Plastico" -> textocolor.setText("Generalmente corresponde al color Amarillo")
+                    "• Carton" -> textocolor.setText("Generalmente corresponde al color Azul")
+                    "• Papel" -> textocolor.setText("Generalmente corresponde al color Azul")
+                    "• Bateria/Pila" -> textocolor.setText("Generalmente corresponde al color Rojo")
+                    "• Aluminio/Hojalata" -> textocolor.setText("Generalmente corresponde al color Gris o Negro")
+                    "• Vidrio" -> textocolor.setText("Generalmente corresponde al color Verde")
+                }
+
+                when (item) {
+                    "Selecciona Tipo:" -> textoejemplo.setText("")
+                    "• Plastico" -> textoejemplo.setText("• Ejemplos: Botellas de bebida, Agua y de jugo Desechables, Envases de Shampoo y Jabón de Aseo, Bolsas de Plástico Tipo Camiseta, Bolsas de Papel Higiénico, Bolsas de Alimentos Congelados, Bolsas de Packs de Cervezas.")
+                    "• Carton" -> textoejemplo.setText("• Ejemplo: Cartón Corrugado, Carton Liso, Cartones de Uso Escolar.")
+                    "• Papel" -> textoejemplo.setText("• Ejemplo: Papel de Impresora, Papel Kraft, Papel de Diario, Revistas, Sobres de Papel.")
+                    "• Bateria/Pila" -> textoejemplo.setText("• Las pilas son peligrosas para nuestro medio ambiente, ya que una sola pila puede contaminar miles de litros de agua, ya sean de reloj o las convencionales, al estar compuestas por elementos tóxicos para nosotros y los animales.")
+                    "• Aluminio/Hojalata" -> textoejemplo.setText("• Ejemplo: Bebidas, Cervezas, Jugos, Energéticas, Bandejas de Alumínio, Tarros de Café, Tarros de Crema, Alimentos en Conserva, Entre otros.")
+                    "• Vidrio" -> textoejemplo.setText("• Ejemplo: Frascos de Vidrio usados para Mermeladas, Miel, Frutas, Café, entre Otros.")
                 }
 
                 when (item) {
                     "Selecciona Tipo:" -> btninfo.isEnabled = false
 
-                    "Plastico" -> {
+                    "• Plastico" -> {
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                             val ventana = Intent(applicationContext, reciclar_plastico::class.java)
@@ -93,7 +100,7 @@ class contenedores : AppCompatActivity() {
 
                     }
 
-                    "Carton" -> {
+                    "• Carton" -> {
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                             val ventanaMapa = Intent(applicationContext, reciclar_papeles_cartones::class.java)
@@ -101,7 +108,7 @@ class contenedores : AppCompatActivity() {
                         }
                     }
 
-                    "Papel" -> {
+                    "• Papel" -> {
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                         val ventanaMapa = Intent(applicationContext, reciclar_papeles_cartones::class.java)
@@ -109,7 +116,7 @@ class contenedores : AppCompatActivity() {
                         }
                     }
 
-                    "Bateria/Pila" ->{
+                    "• Bateria/Pila" ->{
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                             val ventanaMapa = Intent(applicationContext, reciclar_pilas_tapas::class.java)
@@ -117,7 +124,7 @@ class contenedores : AppCompatActivity() {
                         }
                     }
 
-                    "Aluminio" -> {
+                    "• Aluminio/Hojalata" -> {
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                             val ventanaMapa = Intent(applicationContext, reciclar_aluminio::class.java)
@@ -125,7 +132,7 @@ class contenedores : AppCompatActivity() {
                         }
                     }
 
-                    "Vidrio" -> {
+                    "• Vidrio" -> {
                         btninfo.isEnabled = true
                         btninfo.setOnClickListener(){
                             val ventanaMapa = Intent(applicationContext, reciclar_vidrio::class.java)
@@ -133,13 +140,6 @@ class contenedores : AppCompatActivity() {
                         }
                     }
 
-                    "Chatarra" -> {
-                        btninfo.isEnabled = true
-                        btninfo.setOnClickListener(){
-                            val ventanaMapa = Intent(applicationContext, reciclar_chatarra::class.java)
-                            startActivity(ventanaMapa)
-                        }
-                    }
                 }
 
             }

@@ -67,7 +67,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:paddingLeft="10dp"
-            android:text="Explicado en simples palabras"
+            android:text="Explicado en Simples Palabras"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="#BD2525"
